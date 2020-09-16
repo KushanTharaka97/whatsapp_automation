@@ -1,0 +1,452 @@
+11-09-2020 14:33:58.926 [Gauge] [INFO] Watching directory: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs
+11-09-2020 14:33:58.927 [Gauge] [DEBUG] Found 1 files
+11-09-2020 14:33:58.927 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+11-09-2020 14:33:58.927 [Gauge] [INFO] Initializing specs cache with 1 specs
+11-09-2020 14:33:58.927 [Gauge] [DEBUG] Adding specs from /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/example.spec
+11-09-2020 14:33:58.927 [Gauge] [INFO] Initializing steps cache with 1 steps
+11-09-2020 14:33:58.927 [Gauge] [INFO] Starting language runner
+11-09-2020 14:33:58.929 [java] [DEBUG] ***** Printing Properties/Env Values *****
+11-09-2020 14:33:58.930 [java] [DEBUG] PATH: /usr/local/apache-maven-3.6.3/bin:/opt/maven/bin:/usr/local/apache-maven-3.6.3/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/jdk1.8.0_151/bin/:/usr/lib/jvm/jdk1.8.0_151/bin/:/home/tharaka/.gauge/plugins/screenshot/0.0.1
+11-09-2020 14:33:58.930 [java] [DEBUG] JAVA_HOME: /usr/lib/jvm/jdk1.8.0_151/
+11-09-2020 14:33:58.930 [java] [DEBUG] gauge_project_root: 
+11-09-2020 14:33:58.930 [java] [DEBUG] gauge_parallel_streams_count: 
+11-09-2020 14:33:58.930 [java] [DEBUG] gauge_reports_dir: reports
+11-09-2020 14:33:58.930 [java] [DEBUG] overwrite_reports: true
+11-09-2020 14:33:58.930 [java] [DEBUG] logs_directory: logs
+11-09-2020 14:33:58.930 [java] [DEBUG] enable_multithreading: false
+11-09-2020 14:33:58.930 [java] [DEBUG] gauge_specs_dir: specs
+11-09-2020 14:33:58.930 [java] [DEBUG] csv_delimiter: ,
+11-09-2020 14:33:58.930 [java] [DEBUG] gauge_java_home: 
+11-09-2020 14:33:58.930 [java] [DEBUG] gauge_custom_build_path: 
+11-09-2020 14:33:58.930 [java] [DEBUG] gauge_additional_libs: libs/*
+11-09-2020 14:33:58.930 [java] [DEBUG] gauge_jvm_args: 
+11-09-2020 14:33:58.930 [java] [DEBUG] gauge_custom_compile_dir: 
+11-09-2020 14:33:58.930 [java] [DEBUG] gauge_clear_state_level: scenario
+11-09-2020 14:33:58.930 [java] [DEBUG] ***** END *****
+11-09-2020 14:34:04.446 [java] [DEBUG] classpath set to /opt/kushan/gauge/gauge-project-fb-2020-09-11/target/test-classes:/opt/kushan/gauge/gauge-project-fb-2020-09-11/target/classes:/home/tharaka/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.9/gauge-java-0.7.9.jar:/home/tharaka/.m2/repository/com/github/javaparser/javaparser-core/3.16.1/javaparser-core-3.16.1.jar:/home/tharaka/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/home/tharaka/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/tharaka/.m2/repository/org/json/json/20200518/json-20200518.jar:/home/tharaka/.m2/repository/com/google/protobuf/protobuf-java/3.12.2/protobuf-java-3.12.2.jar:/home/tharaka/.m2/repository/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar:/home/tharaka/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/tharaka/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/tharaka/.m2/repository/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar:/home/tharaka/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/tharaka/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/tharaka/.m2/repository/io/grpc/grpc-netty-shaded/1.30.2/grpc-netty-shaded-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-core/1.30.2/grpc-core-1.30.2.jar:/home/tharaka/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/tharaka/.m2/repository/io/perfmark/perfmark-api/0.19.0/perfmark-api-0.19.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf/1.30.2/grpc-protobuf-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-api/1.30.2/grpc-api-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-context/1.30.2/grpc-context-1.30.2.jar:/home/tharaka/.m2/repository/com/google/api/grpc/proto-google-common-protos/1.17.0/proto-google-common-protos-1.17.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf-lite/1.30.2/grpc-protobuf-lite-1.30.2.jar:/home/tharaka/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:/home/tharaka/.m2/repository/io/grpc/grpc-stub/1.30.2/grpc-stub-1.30.2.jar:/home/tharaka/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/tharaka/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/home/tharaka/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/tharaka/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/tharaka/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/tharaka/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/tharaka/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/home/tharaka/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/home/tharaka/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.1/webdrivermanager-3.7.1.jar:/home/tharaka/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/tharaka/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/home/tharaka/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/home/tharaka/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/home/tharaka/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+11-09-2020 14:34:04.456 [java] [DEBUG] found java executable in /usr/lib/jvm/jdk1.8.0_151/jre/bin/java
+11-09-2020 14:34:04.456 [java] [DEBUG] running - /usr/lib/jvm/jdk1.8.0_151/jre/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+11-09-2020 14:34:04.456 [java] [DEBUG] stdout/stderr is logged to logs/7309-java.out
+11-09-2020 14:34:05.060 [java] [DEBUG] multithreading is set to false
+11-09-2020 14:34:05.737 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+11-09-2020 14:34:06.474 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+11-09-2020 14:34:06.474 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+11-09-2020 14:34:06.474 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+11-09-2020 14:34:07.352 [java] [DEBUG] gauge-java took 2290milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+11-09-2020 14:34:07.352 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 2290
+11-09-2020 14:34:07.352 [java] [DEBUG] starting gRPC server...
+11-09-2020 14:34:07.755 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 40829
+11-09-2020 14:34:08.165 [Gauge] [DEBUG] Successfully made the connection with runner with port: 40829
+11-09-2020 14:34:08.165 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+11-09-2020 14:34:08.166 [Gauge] [INFO] Connection closed
+11-09-2020 14:34:08.167 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed
+11-09-2020 14:34:09.838 [Gauge] [INFO] Watching directory: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs
+11-09-2020 14:34:09.838 [Gauge] [DEBUG] Found 1 files
+11-09-2020 14:34:09.838 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+11-09-2020 14:34:09.839 [Gauge] [INFO] Initializing specs cache with 1 specs
+11-09-2020 14:34:09.839 [Gauge] [DEBUG] Adding specs from /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/example.spec
+11-09-2020 14:34:09.839 [Gauge] [INFO] Initializing steps cache with 1 steps
+11-09-2020 14:34:09.839 [Gauge] [INFO] Starting language runner
+11-09-2020 14:34:09.843 [java] [DEBUG] ***** Printing Properties/Env Values *****
+11-09-2020 14:34:09.843 [java] [DEBUG] PATH: /usr/local/apache-maven-3.6.3/bin:/opt/maven/bin:/usr/local/apache-maven-3.6.3/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/jdk1.8.0_151/bin/:/usr/lib/jvm/jdk1.8.0_151/bin/:/home/tharaka/.gauge/plugins/screenshot/0.0.1
+11-09-2020 14:34:09.843 [java] [DEBUG] JAVA_HOME: /usr/lib/jvm/jdk1.8.0_151/
+11-09-2020 14:34:09.843 [java] [DEBUG] gauge_project_root: 
+11-09-2020 14:34:09.843 [java] [DEBUG] gauge_parallel_streams_count: 
+11-09-2020 14:34:09.843 [java] [DEBUG] gauge_reports_dir: reports
+11-09-2020 14:34:09.843 [java] [DEBUG] overwrite_reports: true
+11-09-2020 14:34:09.843 [java] [DEBUG] logs_directory: logs
+11-09-2020 14:34:09.843 [java] [DEBUG] enable_multithreading: false
+11-09-2020 14:34:09.843 [java] [DEBUG] gauge_specs_dir: specs
+11-09-2020 14:34:09.843 [java] [DEBUG] csv_delimiter: ,
+11-09-2020 14:34:09.843 [java] [DEBUG] gauge_java_home: 
+11-09-2020 14:34:09.843 [java] [DEBUG] gauge_custom_build_path: 
+11-09-2020 14:34:09.843 [java] [DEBUG] gauge_additional_libs: libs/*
+11-09-2020 14:34:09.843 [java] [DEBUG] gauge_jvm_args: 
+11-09-2020 14:34:09.843 [java] [DEBUG] gauge_custom_compile_dir: 
+11-09-2020 14:34:09.843 [java] [DEBUG] gauge_clear_state_level: scenario
+11-09-2020 14:34:09.843 [java] [DEBUG] ***** END *****
+11-09-2020 14:34:15.112 [java] [DEBUG] classpath set to /opt/kushan/gauge/gauge-project-fb-2020-09-11/target/test-classes:/opt/kushan/gauge/gauge-project-fb-2020-09-11/target/classes:/home/tharaka/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.9/gauge-java-0.7.9.jar:/home/tharaka/.m2/repository/com/github/javaparser/javaparser-core/3.16.1/javaparser-core-3.16.1.jar:/home/tharaka/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/home/tharaka/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/tharaka/.m2/repository/org/json/json/20200518/json-20200518.jar:/home/tharaka/.m2/repository/com/google/protobuf/protobuf-java/3.12.2/protobuf-java-3.12.2.jar:/home/tharaka/.m2/repository/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar:/home/tharaka/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/tharaka/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/tharaka/.m2/repository/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar:/home/tharaka/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/tharaka/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/tharaka/.m2/repository/io/grpc/grpc-netty-shaded/1.30.2/grpc-netty-shaded-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-core/1.30.2/grpc-core-1.30.2.jar:/home/tharaka/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/tharaka/.m2/repository/io/perfmark/perfmark-api/0.19.0/perfmark-api-0.19.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf/1.30.2/grpc-protobuf-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-api/1.30.2/grpc-api-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-context/1.30.2/grpc-context-1.30.2.jar:/home/tharaka/.m2/repository/com/google/api/grpc/proto-google-common-protos/1.17.0/proto-google-common-protos-1.17.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf-lite/1.30.2/grpc-protobuf-lite-1.30.2.jar:/home/tharaka/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:/home/tharaka/.m2/repository/io/grpc/grpc-stub/1.30.2/grpc-stub-1.30.2.jar:/home/tharaka/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/tharaka/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/home/tharaka/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/tharaka/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/tharaka/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/tharaka/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/tharaka/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/home/tharaka/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/home/tharaka/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.1/webdrivermanager-3.7.1.jar:/home/tharaka/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/tharaka/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/home/tharaka/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/home/tharaka/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/home/tharaka/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+11-09-2020 14:34:15.124 [java] [DEBUG] found java executable in /usr/lib/jvm/jdk1.8.0_151/jre/bin/java
+11-09-2020 14:34:15.124 [java] [DEBUG] running - /usr/lib/jvm/jdk1.8.0_151/jre/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+11-09-2020 14:34:15.124 [java] [DEBUG] stdout/stderr is logged to logs/7709-java.out
+11-09-2020 14:34:15.329 [java] [DEBUG] multithreading is set to false
+11-09-2020 14:34:15.642 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+11-09-2020 14:34:15.803 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+11-09-2020 14:34:15.803 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+11-09-2020 14:34:15.804 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+11-09-2020 14:34:16.127 [java] [DEBUG] gauge-java took 798milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+11-09-2020 14:34:16.128 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 798
+11-09-2020 14:34:16.128 [java] [DEBUG] starting gRPC server...
+11-09-2020 14:34:16.280 [java] [DEBUG] started gRPC server on port 46251
+11-09-2020 14:34:16.280 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 46251
+11-09-2020 14:34:16.512 [Gauge] [DEBUG] Successfully made the connection with runner with port: 46251
+11-09-2020 14:34:16.513 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+11-09-2020 14:34:16.709 [Gauge] [DEBUG] Validation started.
+11-09-2020 14:34:17.839 [java] [DEBUG] Scanning packages for steps
+11-09-2020 14:34:17.847 [java] [DEBUG] Scanning packages for hooks
+11-09-2020 14:34:17.852 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+11-09-2020 14:34:17.856 [java] [DEBUG] 	Open the Gauge homepage : public void implementation1()
+11-09-2020 14:34:17.856 [java] [DEBUG] 	Go to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException
+11-09-2020 14:34:17.857 [java] [DEBUG] 	Ensure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException
+11-09-2020 14:34:19.331 [Gauge] [DEBUG] Validation completed.
+11-09-2020 14:34:19.332 [Gauge] [DEBUG] Validation started.
+11-09-2020 14:34:19.386 [Gauge] [DEBUG] Validation completed.
+11-09-2020 14:36:13.410 [Gauge] [CRITICAL] Failed to read execution status information. Reason: File /opt/kushan/gauge/gauge-project-fb-2020-09-11/.gauge/executionStatus.json doesn't exist.
+11-09-2020 14:36:13.427 [Gauge] [INFO] Watching directory: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs
+11-09-2020 14:36:13.427 [Gauge] [DEBUG] Found 1 files
+11-09-2020 14:36:13.427 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+11-09-2020 14:36:13.427 [Gauge] [INFO] Initializing specs cache with 1 specs
+11-09-2020 14:36:13.427 [Gauge] [DEBUG] Adding specs from /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/example.spec
+11-09-2020 14:36:13.427 [Gauge] [INFO] Initializing steps cache with 1 steps
+11-09-2020 14:36:13.428 [Gauge] [INFO] Starting language runner
+11-09-2020 14:36:13.430 [java] [DEBUG] ***** Printing Properties/Env Values *****
+11-09-2020 14:36:13.430 [java] [DEBUG] PATH: /usr/local/apache-maven-3.6.3/bin:/opt/maven/bin:/usr/local/apache-maven-3.6.3/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/jdk1.8.0_151/bin/:/usr/lib/jvm/jdk1.8.0_151/bin/:/home/tharaka/.gauge/plugins/screenshot/0.0.1
+11-09-2020 14:36:13.430 [java] [DEBUG] JAVA_HOME: /usr/lib/jvm/jdk1.8.0_151/
+11-09-2020 14:36:13.430 [java] [DEBUG] gauge_project_root: 
+11-09-2020 14:36:13.430 [java] [DEBUG] gauge_parallel_streams_count: 
+11-09-2020 14:36:13.430 [java] [DEBUG] gauge_reports_dir: reports
+11-09-2020 14:36:13.430 [java] [DEBUG] overwrite_reports: true
+11-09-2020 14:36:13.430 [java] [DEBUG] logs_directory: logs
+11-09-2020 14:36:13.430 [java] [DEBUG] enable_multithreading: false
+11-09-2020 14:36:13.430 [java] [DEBUG] gauge_specs_dir: specs
+11-09-2020 14:36:13.430 [java] [DEBUG] csv_delimiter: ,
+11-09-2020 14:36:13.430 [java] [DEBUG] gauge_java_home: 
+11-09-2020 14:36:13.430 [java] [DEBUG] gauge_custom_build_path: 
+11-09-2020 14:36:13.430 [java] [DEBUG] gauge_additional_libs: libs/*
+11-09-2020 14:36:13.430 [java] [DEBUG] gauge_jvm_args: 
+11-09-2020 14:36:13.430 [java] [DEBUG] gauge_custom_compile_dir: 
+11-09-2020 14:36:13.430 [java] [DEBUG] gauge_clear_state_level: scenario
+11-09-2020 14:36:13.430 [java] [DEBUG] ***** END *****
+11-09-2020 14:36:16.188 [java] [DEBUG] classpath set to /opt/kushan/gauge/gauge-project-fb-2020-09-11/target/test-classes:/opt/kushan/gauge/gauge-project-fb-2020-09-11/target/classes:/home/tharaka/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.9/gauge-java-0.7.9.jar:/home/tharaka/.m2/repository/com/github/javaparser/javaparser-core/3.16.1/javaparser-core-3.16.1.jar:/home/tharaka/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/home/tharaka/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/tharaka/.m2/repository/org/json/json/20200518/json-20200518.jar:/home/tharaka/.m2/repository/com/google/protobuf/protobuf-java/3.12.2/protobuf-java-3.12.2.jar:/home/tharaka/.m2/repository/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar:/home/tharaka/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/tharaka/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/tharaka/.m2/repository/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar:/home/tharaka/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/tharaka/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/tharaka/.m2/repository/io/grpc/grpc-netty-shaded/1.30.2/grpc-netty-shaded-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-core/1.30.2/grpc-core-1.30.2.jar:/home/tharaka/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/tharaka/.m2/repository/io/perfmark/perfmark-api/0.19.0/perfmark-api-0.19.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf/1.30.2/grpc-protobuf-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-api/1.30.2/grpc-api-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-context/1.30.2/grpc-context-1.30.2.jar:/home/tharaka/.m2/repository/com/google/api/grpc/proto-google-common-protos/1.17.0/proto-google-common-protos-1.17.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf-lite/1.30.2/grpc-protobuf-lite-1.30.2.jar:/home/tharaka/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:/home/tharaka/.m2/repository/io/grpc/grpc-stub/1.30.2/grpc-stub-1.30.2.jar:/home/tharaka/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/tharaka/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/home/tharaka/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/tharaka/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/tharaka/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/tharaka/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/tharaka/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/home/tharaka/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/home/tharaka/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.1/webdrivermanager-3.7.1.jar:/home/tharaka/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/tharaka/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/home/tharaka/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/home/tharaka/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/home/tharaka/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+11-09-2020 14:36:16.214 [java] [DEBUG] found java executable in /usr/lib/jvm/jdk1.8.0_151/jre/bin/java
+11-09-2020 14:36:16.214 [java] [DEBUG] running - /usr/lib/jvm/jdk1.8.0_151/jre/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+11-09-2020 14:36:16.214 [java] [DEBUG] stdout/stderr is logged to logs/8065-java.out
+11-09-2020 14:36:16.395 [java] [DEBUG] multithreading is set to false
+11-09-2020 14:36:16.716 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+11-09-2020 14:36:16.870 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+11-09-2020 14:36:16.870 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+11-09-2020 14:36:16.870 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+11-09-2020 14:36:17.186 [java] [DEBUG] gauge-java took 790milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+11-09-2020 14:36:17.188 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 790
+11-09-2020 14:36:17.188 [java] [DEBUG] starting gRPC server...
+11-09-2020 14:36:17.307 [java] [DEBUG] started gRPC server on port 37907
+11-09-2020 14:36:17.307 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 37907
+11-09-2020 14:36:17.492 [Gauge] [DEBUG] Successfully made the connection with runner with port: 37907
+11-09-2020 14:36:17.493 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+11-09-2020 14:36:17.496 [Gauge] [DEBUG] Validation started.
+11-09-2020 14:36:19.371 [java] [DEBUG] Scanning packages for steps
+11-09-2020 14:36:19.379 [java] [DEBUG] Scanning packages for hooks
+11-09-2020 14:36:19.384 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+11-09-2020 14:36:19.387 [java] [DEBUG] 	Open the Gauge homepage : public void implementation1()
+11-09-2020 14:36:19.387 [java] [DEBUG] 	Go to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException
+11-09-2020 14:36:19.388 [java] [DEBUG] 	Ensure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException
+11-09-2020 14:36:20.619 [Gauge] [DEBUG] Validation completed.
+11-09-2020 14:36:20.621 [Gauge] [DEBUG] Validation started.
+11-09-2020 14:36:20.637 [Gauge] [DEBUG] Validation completed.
+11-09-2020 14:38:12.292 [Gauge] [DEBUG] Runner with PID:8065 has exited
+11-09-2020 14:38:24.526 [Gauge] [INFO] Watching directory: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs
+11-09-2020 14:38:24.526 [Gauge] [DEBUG] Found 1 files
+11-09-2020 14:38:24.527 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+11-09-2020 14:38:24.528 [Gauge] [INFO] Initializing specs cache with 1 specs
+11-09-2020 14:38:24.528 [Gauge] [DEBUG] Adding specs from /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/example.spec
+11-09-2020 14:38:24.528 [Gauge] [INFO] Initializing steps cache with 1 steps
+11-09-2020 14:38:24.528 [Gauge] [INFO] Starting language runner
+11-09-2020 14:38:24.536 [java] [DEBUG] ***** Printing Properties/Env Values *****
+11-09-2020 14:38:24.536 [java] [DEBUG] PATH: /usr/local/apache-maven-3.6.3/bin:/opt/maven/bin:/usr/local/apache-maven-3.6.3/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/jdk1.8.0_151/bin/:/usr/lib/jvm/jdk1.8.0_151/bin/:/home/tharaka/.gauge/plugins/screenshot/0.0.1
+11-09-2020 14:38:24.536 [java] [DEBUG] JAVA_HOME: /usr/lib/jvm/jdk1.8.0_151/
+11-09-2020 14:38:24.536 [java] [DEBUG] gauge_project_root: 
+11-09-2020 14:38:24.536 [java] [DEBUG] gauge_parallel_streams_count: 
+11-09-2020 14:38:24.536 [java] [DEBUG] gauge_reports_dir: reports
+11-09-2020 14:38:24.536 [java] [DEBUG] overwrite_reports: true
+11-09-2020 14:38:24.536 [java] [DEBUG] logs_directory: logs
+11-09-2020 14:38:24.536 [java] [DEBUG] enable_multithreading: false
+11-09-2020 14:38:24.536 [java] [DEBUG] gauge_specs_dir: specs
+11-09-2020 14:38:24.537 [java] [DEBUG] csv_delimiter: ,
+11-09-2020 14:38:24.537 [java] [DEBUG] gauge_java_home: 
+11-09-2020 14:38:24.537 [java] [DEBUG] gauge_custom_build_path: 
+11-09-2020 14:38:24.537 [java] [DEBUG] gauge_additional_libs: libs/*
+11-09-2020 14:38:24.537 [java] [DEBUG] gauge_jvm_args: 
+11-09-2020 14:38:24.537 [java] [DEBUG] gauge_custom_compile_dir: 
+11-09-2020 14:38:24.537 [java] [DEBUG] gauge_clear_state_level: scenario
+11-09-2020 14:38:24.537 [java] [DEBUG] ***** END *****
+11-09-2020 14:38:29.150 [java] [DEBUG] classpath set to /opt/kushan/gauge/gauge-project-fb-2020-09-11/target/test-classes:/opt/kushan/gauge/gauge-project-fb-2020-09-11/target/classes:/home/tharaka/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.9/gauge-java-0.7.9.jar:/home/tharaka/.m2/repository/com/github/javaparser/javaparser-core/3.16.1/javaparser-core-3.16.1.jar:/home/tharaka/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/home/tharaka/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/tharaka/.m2/repository/org/json/json/20200518/json-20200518.jar:/home/tharaka/.m2/repository/com/google/protobuf/protobuf-java/3.12.2/protobuf-java-3.12.2.jar:/home/tharaka/.m2/repository/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar:/home/tharaka/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/tharaka/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/tharaka/.m2/repository/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar:/home/tharaka/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/tharaka/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/tharaka/.m2/repository/io/grpc/grpc-netty-shaded/1.30.2/grpc-netty-shaded-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-core/1.30.2/grpc-core-1.30.2.jar:/home/tharaka/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/tharaka/.m2/repository/io/perfmark/perfmark-api/0.19.0/perfmark-api-0.19.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf/1.30.2/grpc-protobuf-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-api/1.30.2/grpc-api-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-context/1.30.2/grpc-context-1.30.2.jar:/home/tharaka/.m2/repository/com/google/api/grpc/proto-google-common-protos/1.17.0/proto-google-common-protos-1.17.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf-lite/1.30.2/grpc-protobuf-lite-1.30.2.jar:/home/tharaka/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:/home/tharaka/.m2/repository/io/grpc/grpc-stub/1.30.2/grpc-stub-1.30.2.jar:/home/tharaka/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/tharaka/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/home/tharaka/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/tharaka/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/tharaka/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/tharaka/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/tharaka/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/home/tharaka/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/home/tharaka/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.1/webdrivermanager-3.7.1.jar:/home/tharaka/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/tharaka/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/home/tharaka/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/home/tharaka/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/home/tharaka/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+11-09-2020 14:38:29.169 [java] [DEBUG] found java executable in /usr/lib/jvm/jdk1.8.0_151/jre/bin/java
+11-09-2020 14:38:29.169 [java] [DEBUG] running - /usr/lib/jvm/jdk1.8.0_151/jre/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+11-09-2020 14:38:29.169 [java] [DEBUG] stdout/stderr is logged to logs/8507-java.out
+11-09-2020 14:38:29.479 [java] [DEBUG] multithreading is set to false
+11-09-2020 14:38:30.016 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+11-09-2020 14:38:30.205 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+11-09-2020 14:38:30.205 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+11-09-2020 14:38:30.205 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+11-09-2020 14:38:30.546 [java] [DEBUG] gauge-java took 1066milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+11-09-2020 14:38:30.549 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1066
+11-09-2020 14:38:30.549 [java] [DEBUG] starting gRPC server...
+11-09-2020 14:38:30.669 [java] [DEBUG] started gRPC server on port 38669
+11-09-2020 14:38:30.669 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 38669
+11-09-2020 14:38:30.864 [Gauge] [DEBUG] Successfully made the connection with runner with port: 38669
+11-09-2020 14:38:30.864 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+11-09-2020 14:38:30.892 [Gauge] [DEBUG] Validation started.
+11-09-2020 14:38:32.478 [java] [DEBUG] Scanning packages for steps
+11-09-2020 14:38:32.497 [java] [DEBUG] Scanning packages for hooks
+11-09-2020 14:38:32.505 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+11-09-2020 14:38:32.507 [java] [DEBUG] 	Open the Gauge homepage : public void implementation1()
+11-09-2020 14:38:32.507 [java] [DEBUG] 	Go to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException
+11-09-2020 14:38:32.507 [java] [DEBUG] 	Ensure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException
+11-09-2020 14:38:33.629 [Gauge] [DEBUG] Validation completed.
+11-09-2020 14:38:33.631 [Gauge] [DEBUG] Validation started.
+11-09-2020 14:38:33.640 [Gauge] [DEBUG] Validation completed.
+11-09-2020 14:38:47.485 [Gauge] [CRITICAL] Failed to read execution status information. Reason: File /opt/kushan/gauge/gauge-project-fb-2020-09-11/.gauge/executionStatus.json doesn't exist.
+11-09-2020 14:38:47.554 [Gauge] [INFO] Watching directory: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs
+11-09-2020 14:38:47.554 [Gauge] [DEBUG] Found 1 files
+11-09-2020 14:38:47.554 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+11-09-2020 14:38:47.554 [Gauge] [INFO] Initializing specs cache with 1 specs
+11-09-2020 14:38:47.554 [Gauge] [DEBUG] Adding specs from /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/example.spec
+11-09-2020 14:38:47.554 [Gauge] [INFO] Initializing steps cache with 1 steps
+11-09-2020 14:38:47.555 [Gauge] [INFO] Starting language runner
+11-09-2020 14:38:47.559 [java] [DEBUG] ***** Printing Properties/Env Values *****
+11-09-2020 14:38:47.559 [java] [DEBUG] PATH: /usr/local/apache-maven-3.6.3/bin:/opt/maven/bin:/usr/local/apache-maven-3.6.3/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/jdk1.8.0_151/bin/:/usr/lib/jvm/jdk1.8.0_151/bin/:/home/tharaka/.gauge/plugins/screenshot/0.0.1
+11-09-2020 14:38:47.559 [java] [DEBUG] JAVA_HOME: /usr/lib/jvm/jdk1.8.0_151/
+11-09-2020 14:38:47.559 [java] [DEBUG] gauge_project_root: 
+11-09-2020 14:38:47.559 [java] [DEBUG] gauge_parallel_streams_count: 
+11-09-2020 14:38:47.559 [java] [DEBUG] gauge_reports_dir: reports
+11-09-2020 14:38:47.559 [java] [DEBUG] overwrite_reports: true
+11-09-2020 14:38:47.559 [java] [DEBUG] logs_directory: logs
+11-09-2020 14:38:47.559 [java] [DEBUG] enable_multithreading: false
+11-09-2020 14:38:47.559 [java] [DEBUG] gauge_specs_dir: specs
+11-09-2020 14:38:47.559 [java] [DEBUG] csv_delimiter: ,
+11-09-2020 14:38:47.559 [java] [DEBUG] gauge_java_home: 
+11-09-2020 14:38:47.559 [java] [DEBUG] gauge_custom_build_path: 
+11-09-2020 14:38:47.559 [java] [DEBUG] gauge_additional_libs: libs/*
+11-09-2020 14:38:47.559 [java] [DEBUG] gauge_jvm_args: 
+11-09-2020 14:38:47.559 [java] [DEBUG] gauge_custom_compile_dir: 
+11-09-2020 14:38:47.559 [java] [DEBUG] gauge_clear_state_level: scenario
+11-09-2020 14:38:47.559 [java] [DEBUG] ***** END *****
+11-09-2020 14:38:51.085 [java] [DEBUG] classpath set to /opt/kushan/gauge/gauge-project-fb-2020-09-11/target/test-classes:/opt/kushan/gauge/gauge-project-fb-2020-09-11/target/classes:/home/tharaka/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.9/gauge-java-0.7.9.jar:/home/tharaka/.m2/repository/com/github/javaparser/javaparser-core/3.16.1/javaparser-core-3.16.1.jar:/home/tharaka/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/home/tharaka/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/tharaka/.m2/repository/org/json/json/20200518/json-20200518.jar:/home/tharaka/.m2/repository/com/google/protobuf/protobuf-java/3.12.2/protobuf-java-3.12.2.jar:/home/tharaka/.m2/repository/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar:/home/tharaka/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/tharaka/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/tharaka/.m2/repository/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar:/home/tharaka/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/tharaka/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/tharaka/.m2/repository/io/grpc/grpc-netty-shaded/1.30.2/grpc-netty-shaded-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-core/1.30.2/grpc-core-1.30.2.jar:/home/tharaka/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/tharaka/.m2/repository/io/perfmark/perfmark-api/0.19.0/perfmark-api-0.19.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf/1.30.2/grpc-protobuf-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-api/1.30.2/grpc-api-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-context/1.30.2/grpc-context-1.30.2.jar:/home/tharaka/.m2/repository/com/google/api/grpc/proto-google-common-protos/1.17.0/proto-google-common-protos-1.17.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf-lite/1.30.2/grpc-protobuf-lite-1.30.2.jar:/home/tharaka/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:/home/tharaka/.m2/repository/io/grpc/grpc-stub/1.30.2/grpc-stub-1.30.2.jar:/home/tharaka/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/tharaka/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/home/tharaka/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/tharaka/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/tharaka/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/tharaka/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/tharaka/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/home/tharaka/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/home/tharaka/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.1/webdrivermanager-3.7.1.jar:/home/tharaka/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/tharaka/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/home/tharaka/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/home/tharaka/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/home/tharaka/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+11-09-2020 14:38:51.110 [java] [DEBUG] found java executable in /usr/lib/jvm/jdk1.8.0_151/jre/bin/java
+11-09-2020 14:38:51.110 [java] [DEBUG] running - /usr/lib/jvm/jdk1.8.0_151/jre/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+11-09-2020 14:38:51.110 [java] [DEBUG] stdout/stderr is logged to logs/8796-java.out
+11-09-2020 14:38:51.389 [java] [DEBUG] multithreading is set to false
+11-09-2020 14:38:51.743 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+11-09-2020 14:38:51.892 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+11-09-2020 14:38:51.892 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+11-09-2020 14:38:51.892 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+11-09-2020 14:38:52.195 [java] [DEBUG] gauge-java took 806milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+11-09-2020 14:38:52.195 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 806
+11-09-2020 14:38:52.195 [java] [DEBUG] starting gRPC server...
+11-09-2020 14:38:52.324 [java] [DEBUG] started gRPC server on port 35727
+11-09-2020 14:38:52.325 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 35727
+11-09-2020 14:38:52.573 [Gauge] [DEBUG] Successfully made the connection with runner with port: 35727
+11-09-2020 14:38:52.573 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+11-09-2020 14:38:52.586 [Gauge] [DEBUG] Validation started.
+11-09-2020 14:38:54.369 [java] [DEBUG] Scanning packages for steps
+11-09-2020 14:38:54.383 [java] [DEBUG] Scanning packages for hooks
+11-09-2020 14:38:54.390 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+11-09-2020 14:38:54.397 [java] [DEBUG] 	Open the Gauge homepage : public void implementation1()
+11-09-2020 14:38:54.397 [java] [DEBUG] 	Go to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException
+11-09-2020 14:38:54.397 [java] [DEBUG] 	Ensure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException
+11-09-2020 14:38:55.560 [Gauge] [DEBUG] Validation completed.
+11-09-2020 14:38:55.562 [Gauge] [DEBUG] Validation started.
+11-09-2020 14:38:55.573 [Gauge] [DEBUG] Validation completed.
+11-09-2020 14:40:21.091 [Gauge] [CRITICAL] Failed to read execution status information. Reason: File /opt/kushan/gauge/gauge-project-fb-2020-09-11/.gauge/executionStatus.json doesn't exist.
+11-09-2020 14:40:21.105 [Gauge] [INFO] Watching directory: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs
+11-09-2020 14:40:21.105 [Gauge] [DEBUG] Found 1 files
+11-09-2020 14:40:21.105 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+11-09-2020 14:40:21.106 [Gauge] [INFO] Initializing specs cache with 1 specs
+11-09-2020 14:40:21.106 [Gauge] [DEBUG] Adding specs from /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/example.spec
+11-09-2020 14:40:21.106 [Gauge] [INFO] Initializing steps cache with 1 steps
+11-09-2020 14:40:21.106 [Gauge] [INFO] Starting language runner
+11-09-2020 14:40:21.109 [java] [DEBUG] ***** Printing Properties/Env Values *****
+11-09-2020 14:40:21.109 [java] [DEBUG] PATH: /usr/local/apache-maven-3.6.3/bin:/opt/maven/bin:/usr/local/apache-maven-3.6.3/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/jdk1.8.0_151/bin/:/usr/lib/jvm/jdk1.8.0_151/bin/:/home/tharaka/.gauge/plugins/screenshot/0.0.1
+11-09-2020 14:40:21.109 [java] [DEBUG] JAVA_HOME: /usr/lib/jvm/jdk1.8.0_151/
+11-09-2020 14:40:21.109 [java] [DEBUG] gauge_project_root: 
+11-09-2020 14:40:21.109 [java] [DEBUG] gauge_parallel_streams_count: 
+11-09-2020 14:40:21.109 [java] [DEBUG] gauge_reports_dir: reports
+11-09-2020 14:40:21.109 [java] [DEBUG] overwrite_reports: true
+11-09-2020 14:40:21.109 [java] [DEBUG] logs_directory: logs
+11-09-2020 14:40:21.109 [java] [DEBUG] enable_multithreading: false
+11-09-2020 14:40:21.109 [java] [DEBUG] gauge_specs_dir: specs
+11-09-2020 14:40:21.109 [java] [DEBUG] csv_delimiter: ,
+11-09-2020 14:40:21.109 [java] [DEBUG] gauge_java_home: 
+11-09-2020 14:40:21.109 [java] [DEBUG] gauge_custom_build_path: 
+11-09-2020 14:40:21.109 [java] [DEBUG] gauge_additional_libs: libs/*
+11-09-2020 14:40:21.109 [java] [DEBUG] gauge_jvm_args: 
+11-09-2020 14:40:21.109 [java] [DEBUG] gauge_custom_compile_dir: 
+11-09-2020 14:40:21.109 [java] [DEBUG] gauge_clear_state_level: scenario
+11-09-2020 14:40:21.109 [java] [DEBUG] ***** END *****
+11-09-2020 14:40:24.077 [java] [DEBUG] classpath set to /opt/kushan/gauge/gauge-project-fb-2020-09-11/target/test-classes:/opt/kushan/gauge/gauge-project-fb-2020-09-11/target/classes:/home/tharaka/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.9/gauge-java-0.7.9.jar:/home/tharaka/.m2/repository/com/github/javaparser/javaparser-core/3.16.1/javaparser-core-3.16.1.jar:/home/tharaka/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/home/tharaka/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/tharaka/.m2/repository/org/json/json/20200518/json-20200518.jar:/home/tharaka/.m2/repository/com/google/protobuf/protobuf-java/3.12.2/protobuf-java-3.12.2.jar:/home/tharaka/.m2/repository/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar:/home/tharaka/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/tharaka/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/tharaka/.m2/repository/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar:/home/tharaka/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/tharaka/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/tharaka/.m2/repository/io/grpc/grpc-netty-shaded/1.30.2/grpc-netty-shaded-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-core/1.30.2/grpc-core-1.30.2.jar:/home/tharaka/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/tharaka/.m2/repository/io/perfmark/perfmark-api/0.19.0/perfmark-api-0.19.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf/1.30.2/grpc-protobuf-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-api/1.30.2/grpc-api-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-context/1.30.2/grpc-context-1.30.2.jar:/home/tharaka/.m2/repository/com/google/api/grpc/proto-google-common-protos/1.17.0/proto-google-common-protos-1.17.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf-lite/1.30.2/grpc-protobuf-lite-1.30.2.jar:/home/tharaka/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:/home/tharaka/.m2/repository/io/grpc/grpc-stub/1.30.2/grpc-stub-1.30.2.jar:/home/tharaka/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/tharaka/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/home/tharaka/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/tharaka/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/tharaka/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/tharaka/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/tharaka/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/home/tharaka/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/home/tharaka/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.1/webdrivermanager-3.7.1.jar:/home/tharaka/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/tharaka/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/home/tharaka/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/home/tharaka/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/home/tharaka/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+11-09-2020 14:40:24.084 [java] [DEBUG] found java executable in /usr/lib/jvm/jdk1.8.0_151/jre/bin/java
+11-09-2020 14:40:24.084 [java] [DEBUG] running - /usr/lib/jvm/jdk1.8.0_151/jre/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+11-09-2020 14:40:24.084 [java] [DEBUG] stdout/stderr is logged to logs/9098-java.out
+11-09-2020 14:40:24.242 [java] [DEBUG] multithreading is set to false
+11-09-2020 14:40:24.575 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+11-09-2020 14:40:24.759 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+11-09-2020 14:40:24.759 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+11-09-2020 14:40:24.761 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+11-09-2020 14:40:25.010 [java] [DEBUG] gauge-java took 767milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+11-09-2020 14:40:25.010 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 767
+11-09-2020 14:40:25.010 [java] [DEBUG] starting gRPC server...
+11-09-2020 14:40:25.144 [java] [DEBUG] started gRPC server on port 41835
+11-09-2020 14:40:25.144 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 41835
+11-09-2020 14:40:25.368 [Gauge] [DEBUG] Successfully made the connection with runner with port: 41835
+11-09-2020 14:40:25.369 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+11-09-2020 14:40:25.381 [Gauge] [DEBUG] Validation started.
+11-09-2020 14:40:26.848 [java] [DEBUG] Scanning packages for steps
+11-09-2020 14:40:26.856 [java] [DEBUG] Scanning packages for hooks
+11-09-2020 14:40:26.862 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+11-09-2020 14:40:26.871 [java] [DEBUG] 	Open the Gauge homepage : public void implementation1()
+11-09-2020 14:40:26.871 [java] [DEBUG] 	Go to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException
+11-09-2020 14:40:26.871 [java] [DEBUG] 	Ensure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException
+11-09-2020 14:40:27.947 [Gauge] [DEBUG] Validation completed.
+11-09-2020 14:40:27.949 [Gauge] [DEBUG] Validation started.
+11-09-2020 14:40:27.961 [Gauge] [DEBUG] Validation completed.
+11-09-2020 14:41:36.612 [Gauge] [CRITICAL] Failed to read execution status information. Reason: File /opt/kushan/gauge/gauge-project-fb-2020-09-11/.gauge/executionStatus.json doesn't exist.
+11-09-2020 14:41:36.646 [Gauge] [INFO] Watching directory: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs
+11-09-2020 14:41:36.646 [Gauge] [DEBUG] Found 1 files
+11-09-2020 14:41:36.646 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+11-09-2020 14:41:36.647 [Gauge] [INFO] Initializing specs cache with 1 specs
+11-09-2020 14:41:36.647 [Gauge] [DEBUG] Adding specs from /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/example.spec
+11-09-2020 14:41:36.647 [Gauge] [INFO] Initializing steps cache with 1 steps
+11-09-2020 14:41:36.647 [Gauge] [INFO] Starting language runner
+11-09-2020 14:41:36.665 [java] [DEBUG] ***** Printing Properties/Env Values *****
+11-09-2020 14:41:36.665 [java] [DEBUG] PATH: /usr/local/apache-maven-3.6.3/bin:/opt/maven/bin:/usr/local/apache-maven-3.6.3/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/jdk1.8.0_151/bin/:/usr/lib/jvm/jdk1.8.0_151/bin/:/home/tharaka/.gauge/plugins/screenshot/0.0.1
+11-09-2020 14:41:36.665 [java] [DEBUG] JAVA_HOME: /usr/lib/jvm/jdk1.8.0_151/
+11-09-2020 14:41:36.665 [java] [DEBUG] gauge_project_root: 
+11-09-2020 14:41:36.665 [java] [DEBUG] gauge_parallel_streams_count: 
+11-09-2020 14:41:36.665 [java] [DEBUG] gauge_reports_dir: reports
+11-09-2020 14:41:36.665 [java] [DEBUG] overwrite_reports: true
+11-09-2020 14:41:36.665 [java] [DEBUG] logs_directory: logs
+11-09-2020 14:41:36.665 [java] [DEBUG] enable_multithreading: false
+11-09-2020 14:41:36.665 [java] [DEBUG] gauge_specs_dir: specs
+11-09-2020 14:41:36.665 [java] [DEBUG] csv_delimiter: ,
+11-09-2020 14:41:36.665 [java] [DEBUG] gauge_java_home: 
+11-09-2020 14:41:36.665 [java] [DEBUG] gauge_custom_build_path: 
+11-09-2020 14:41:36.665 [java] [DEBUG] gauge_additional_libs: libs/*
+11-09-2020 14:41:36.665 [java] [DEBUG] gauge_jvm_args: 
+11-09-2020 14:41:36.665 [java] [DEBUG] gauge_custom_compile_dir: 
+11-09-2020 14:41:36.665 [java] [DEBUG] gauge_clear_state_level: scenario
+11-09-2020 14:41:36.665 [java] [DEBUG] ***** END *****
+11-09-2020 14:41:39.425 [java] [DEBUG] classpath set to /opt/kushan/gauge/gauge-project-fb-2020-09-11/target/test-classes:/opt/kushan/gauge/gauge-project-fb-2020-09-11/target/classes:/home/tharaka/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.9/gauge-java-0.7.9.jar:/home/tharaka/.m2/repository/com/github/javaparser/javaparser-core/3.16.1/javaparser-core-3.16.1.jar:/home/tharaka/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/home/tharaka/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/tharaka/.m2/repository/org/json/json/20200518/json-20200518.jar:/home/tharaka/.m2/repository/com/google/protobuf/protobuf-java/3.12.2/protobuf-java-3.12.2.jar:/home/tharaka/.m2/repository/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar:/home/tharaka/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/tharaka/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/tharaka/.m2/repository/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar:/home/tharaka/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/tharaka/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/tharaka/.m2/repository/io/grpc/grpc-netty-shaded/1.30.2/grpc-netty-shaded-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-core/1.30.2/grpc-core-1.30.2.jar:/home/tharaka/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/tharaka/.m2/repository/io/perfmark/perfmark-api/0.19.0/perfmark-api-0.19.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf/1.30.2/grpc-protobuf-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-api/1.30.2/grpc-api-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-context/1.30.2/grpc-context-1.30.2.jar:/home/tharaka/.m2/repository/com/google/api/grpc/proto-google-common-protos/1.17.0/proto-google-common-protos-1.17.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf-lite/1.30.2/grpc-protobuf-lite-1.30.2.jar:/home/tharaka/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:/home/tharaka/.m2/repository/io/grpc/grpc-stub/1.30.2/grpc-stub-1.30.2.jar:/home/tharaka/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/tharaka/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/home/tharaka/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/tharaka/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/tharaka/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/tharaka/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/tharaka/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/home/tharaka/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/home/tharaka/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.1/webdrivermanager-3.7.1.jar:/home/tharaka/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/tharaka/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/home/tharaka/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/home/tharaka/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/home/tharaka/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+11-09-2020 14:41:39.491 [java] [DEBUG] found java executable in /usr/lib/jvm/jdk1.8.0_151/jre/bin/java
+11-09-2020 14:41:39.491 [java] [DEBUG] running - /usr/lib/jvm/jdk1.8.0_151/jre/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+11-09-2020 14:41:39.491 [java] [DEBUG] stdout/stderr is logged to logs/9740-java.out
+11-09-2020 14:41:39.700 [java] [DEBUG] multithreading is set to false
+11-09-2020 14:41:40.072 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+11-09-2020 14:41:40.258 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+11-09-2020 14:41:40.258 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+11-09-2020 14:41:40.258 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+11-09-2020 14:41:40.588 [java] [DEBUG] gauge-java took 888milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+11-09-2020 14:41:40.588 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 888
+11-09-2020 14:41:40.588 [java] [DEBUG] starting gRPC server...
+11-09-2020 14:41:40.717 [java] [DEBUG] started gRPC server on port 40061
+11-09-2020 14:41:40.717 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 40061
+11-09-2020 14:41:40.935 [Gauge] [DEBUG] Successfully made the connection with runner with port: 40061
+11-09-2020 14:41:40.935 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+11-09-2020 14:41:40.941 [Gauge] [DEBUG] Validation started.
+11-09-2020 14:41:42.633 [java] [DEBUG] Scanning packages for steps
+11-09-2020 14:41:42.653 [java] [DEBUG] Scanning packages for hooks
+11-09-2020 14:41:42.664 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+11-09-2020 14:41:42.666 [java] [DEBUG] 	Open the Gauge homepage : public void implementation1()
+11-09-2020 14:41:42.666 [java] [DEBUG] 	Go to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException
+11-09-2020 14:41:42.667 [java] [DEBUG] 	Ensure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException
+11-09-2020 14:41:44.085 [Gauge] [DEBUG] Validation completed.
+11-09-2020 14:41:44.086 [Gauge] [DEBUG] Validation started.
+11-09-2020 14:41:44.129 [Gauge] [DEBUG] Validation completed.
+11-09-2020 14:44:49.109 [Gauge] [DEBUG] Validation started.
+11-09-2020 14:44:49.127 [Gauge] [DEBUG] Validation completed.
+11-09-2020 14:44:56.092 [Gauge] [CRITICAL] Failed to read execution status information. Reason: File /opt/kushan/gauge/gauge-project-fb-2020-09-11/.gauge/executionStatus.json doesn't exist.
+11-09-2020 14:44:56.106 [Gauge] [INFO] Watching directory: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs
+11-09-2020 14:44:56.107 [Gauge] [DEBUG] Found 1 files
+11-09-2020 14:44:56.107 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+11-09-2020 14:44:56.107 [Gauge] [INFO] Initializing specs cache with 1 specs
+11-09-2020 14:44:56.107 [Gauge] [DEBUG] Adding specs from /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/example.spec
+11-09-2020 14:44:56.107 [Gauge] [INFO] Initializing steps cache with 1 steps
+11-09-2020 14:44:56.107 [Gauge] [INFO] Starting language runner
+11-09-2020 14:44:56.111 [java] [DEBUG] ***** Printing Properties/Env Values *****
+11-09-2020 14:44:56.111 [java] [DEBUG] PATH: /usr/local/apache-maven-3.6.3/bin:/opt/maven/bin:/usr/local/apache-maven-3.6.3/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/jdk1.8.0_151/bin/:/usr/lib/jvm/jdk1.8.0_151/bin/:/home/tharaka/.gauge/plugins/screenshot/0.0.1
+11-09-2020 14:44:56.111 [java] [DEBUG] JAVA_HOME: /usr/lib/jvm/jdk1.8.0_151/
+11-09-2020 14:44:56.111 [java] [DEBUG] gauge_project_root: 
+11-09-2020 14:44:56.111 [java] [DEBUG] gauge_parallel_streams_count: 
+11-09-2020 14:44:56.111 [java] [DEBUG] gauge_reports_dir: reports
+11-09-2020 14:44:56.111 [java] [DEBUG] overwrite_reports: true
+11-09-2020 14:44:56.111 [java] [DEBUG] logs_directory: logs
+11-09-2020 14:44:56.111 [java] [DEBUG] enable_multithreading: false
+11-09-2020 14:44:56.111 [java] [DEBUG] gauge_specs_dir: specs
+11-09-2020 14:44:56.111 [java] [DEBUG] csv_delimiter: ,
+11-09-2020 14:44:56.111 [java] [DEBUG] gauge_java_home: 
+11-09-2020 14:44:56.111 [java] [DEBUG] gauge_custom_build_path: 
+11-09-2020 14:44:56.111 [java] [DEBUG] gauge_additional_libs: libs/*
+11-09-2020 14:44:56.111 [java] [DEBUG] gauge_jvm_args: 
+11-09-2020 14:44:56.111 [java] [DEBUG] gauge_custom_compile_dir: 
+11-09-2020 14:44:56.111 [java] [DEBUG] gauge_clear_state_level: scenario
+11-09-2020 14:44:56.111 [java] [DEBUG] ***** END *****
+11-09-2020 14:44:59.120 [java] [DEBUG] classpath set to /opt/kushan/gauge/gauge-project-fb-2020-09-11/target/test-classes:/opt/kushan/gauge/gauge-project-fb-2020-09-11/target/classes:/home/tharaka/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.9/gauge-java-0.7.9.jar:/home/tharaka/.m2/repository/com/github/javaparser/javaparser-core/3.16.1/javaparser-core-3.16.1.jar:/home/tharaka/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/home/tharaka/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/tharaka/.m2/repository/org/json/json/20200518/json-20200518.jar:/home/tharaka/.m2/repository/com/google/protobuf/protobuf-java/3.12.2/protobuf-java-3.12.2.jar:/home/tharaka/.m2/repository/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar:/home/tharaka/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/tharaka/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/tharaka/.m2/repository/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar:/home/tharaka/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/tharaka/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/tharaka/.m2/repository/io/grpc/grpc-netty-shaded/1.30.2/grpc-netty-shaded-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-core/1.30.2/grpc-core-1.30.2.jar:/home/tharaka/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/tharaka/.m2/repository/io/perfmark/perfmark-api/0.19.0/perfmark-api-0.19.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf/1.30.2/grpc-protobuf-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-api/1.30.2/grpc-api-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-context/1.30.2/grpc-context-1.30.2.jar:/home/tharaka/.m2/repository/com/google/api/grpc/proto-google-common-protos/1.17.0/proto-google-common-protos-1.17.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf-lite/1.30.2/grpc-protobuf-lite-1.30.2.jar:/home/tharaka/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:/home/tharaka/.m2/repository/io/grpc/grpc-stub/1.30.2/grpc-stub-1.30.2.jar:/home/tharaka/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/tharaka/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/home/tharaka/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/tharaka/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/tharaka/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/tharaka/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/tharaka/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/home/tharaka/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/home/tharaka/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.1/webdrivermanager-3.7.1.jar:/home/tharaka/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/tharaka/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/home/tharaka/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/home/tharaka/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/home/tharaka/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+11-09-2020 14:44:59.134 [java] [DEBUG] found java executable in /usr/lib/jvm/jdk1.8.0_151/jre/bin/java
+11-09-2020 14:44:59.134 [java] [DEBUG] running - /usr/lib/jvm/jdk1.8.0_151/jre/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+11-09-2020 14:44:59.134 [java] [DEBUG] stdout/stderr is logged to logs/10155-java.out
+11-09-2020 14:44:59.316 [java] [DEBUG] multithreading is set to false
+11-09-2020 14:44:59.697 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+11-09-2020 14:44:59.908 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+11-09-2020 14:44:59.908 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+11-09-2020 14:44:59.908 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+11-09-2020 14:45:00.242 [java] [DEBUG] gauge-java took 925milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+11-09-2020 14:45:00.242 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 925
+11-09-2020 14:45:00.242 [java] [DEBUG] starting gRPC server...
+11-09-2020 14:45:00.374 [java] [DEBUG] started gRPC server on port 40855
+11-09-2020 14:45:00.374 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 40855
+11-09-2020 14:45:00.632 [Gauge] [DEBUG] Successfully made the connection with runner with port: 40855
+11-09-2020 14:45:00.632 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+11-09-2020 14:45:00.640 [Gauge] [DEBUG] Validation started.
+11-09-2020 14:45:02.300 [java] [DEBUG] Scanning packages for steps
+11-09-2020 14:45:02.313 [java] [DEBUG] Scanning packages for hooks
+11-09-2020 14:45:02.320 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+11-09-2020 14:45:02.321 [java] [DEBUG] 	Open the Gauge homepage : public void implementation1()
+11-09-2020 14:45:02.321 [java] [DEBUG] 	Go to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException
+11-09-2020 14:45:02.321 [java] [DEBUG] 	Ensure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException
+11-09-2020 14:45:03.451 [Gauge] [DEBUG] Validation completed.
+11-09-2020 14:45:03.453 [Gauge] [DEBUG] Validation started.
+11-09-2020 14:45:03.464 [Gauge] [DEBUG] Validation completed.
+11-09-2020 15:16:05.167 [Gauge] [DEBUG] Validation started.
+11-09-2020 15:16:05.175 [Gauge] [DEBUG] Validation completed.
+11-09-2020 15:26:23.806 [Gauge] [DEBUG] Runner with PID:10155 has exited
+11-09-2020 15:53:50.699 [Gauge] [INFO] Watching directory: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs
+11-09-2020 15:53:50.936 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+11-09-2020 15:53:50.959 [Gauge] [DEBUG] Found 1 files
+11-09-2020 15:53:51.321 [Gauge] [INFO] Initializing specs cache with 1 specs
+11-09-2020 15:53:51.321 [Gauge] [DEBUG] Adding specs from /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/example.spec
+11-09-2020 15:53:51.321 [Gauge] [INFO] Initializing steps cache with 1 steps
+11-09-2020 15:53:51.542 [Gauge] [INFO] Starting language runner
+11-09-2020 15:53:54.168 [java] [DEBUG] ***** Printing Properties/Env Values *****
+11-09-2020 15:53:54.168 [java] [DEBUG] PATH: /usr/local/apache-maven-3.6.3/bin:/opt/maven/bin:/usr/local/apache-maven-3.6.3/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/jdk1.8.0_151/bin/:/usr/lib/jvm/jdk1.8.0_151/bin/:/home/tharaka/.gauge/plugins/screenshot/0.0.1
+11-09-2020 15:53:54.168 [java] [DEBUG] JAVA_HOME: /usr/lib/jvm/jdk1.8.0_151/
+11-09-2020 15:53:54.168 [java] [DEBUG] gauge_project_root: 
+11-09-2020 15:53:54.168 [java] [DEBUG] gauge_parallel_streams_count: 
+11-09-2020 15:53:54.168 [java] [DEBUG] gauge_reports_dir: reports
+11-09-2020 15:53:54.168 [java] [DEBUG] overwrite_reports: true
+11-09-2020 15:53:54.168 [java] [DEBUG] logs_directory: logs
+11-09-2020 15:53:54.168 [java] [DEBUG] enable_multithreading: false
+11-09-2020 15:53:54.168 [java] [DEBUG] gauge_specs_dir: specs
+11-09-2020 15:53:54.168 [java] [DEBUG] csv_delimiter: ,
+11-09-2020 15:53:54.168 [java] [DEBUG] gauge_java_home: 
+11-09-2020 15:53:54.168 [java] [DEBUG] gauge_custom_build_path: 
+11-09-2020 15:53:54.168 [java] [DEBUG] gauge_additional_libs: libs/*
+11-09-2020 15:53:54.168 [java] [DEBUG] gauge_jvm_args: 
+11-09-2020 15:53:54.168 [java] [DEBUG] gauge_custom_compile_dir: 
+11-09-2020 15:53:54.168 [java] [DEBUG] gauge_clear_state_level: scenario
+11-09-2020 15:53:54.168 [java] [DEBUG] ***** END *****
+11-09-2020 15:54:22.931 [Gauge] [DEBUG] unable to connect to runner : Timed out connecting to java
+Some of the gauge lsp feature will not work as expected.
+11-09-2020 15:54:22.982 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+11-09-2020 15:54:24.132 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+11-09-2020 15:54:50.413 [java] [DEBUG] classpath set to /opt/kushan/gauge/gauge-project-fb-2020-09-11/target/test-classes:/opt/kushan/gauge/gauge-project-fb-2020-09-11/target/classes:/home/tharaka/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.9/gauge-java-0.7.9.jar:/home/tharaka/.m2/repository/com/github/javaparser/javaparser-core/3.16.1/javaparser-core-3.16.1.jar:/home/tharaka/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/home/tharaka/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/tharaka/.m2/repository/org/json/json/20200518/json-20200518.jar:/home/tharaka/.m2/repository/com/google/protobuf/protobuf-java/3.12.2/protobuf-java-3.12.2.jar:/home/tharaka/.m2/repository/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar:/home/tharaka/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/tharaka/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/tharaka/.m2/repository/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar:/home/tharaka/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/tharaka/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/tharaka/.m2/repository/io/grpc/grpc-netty-shaded/1.30.2/grpc-netty-shaded-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-core/1.30.2/grpc-core-1.30.2.jar:/home/tharaka/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/tharaka/.m2/repository/io/perfmark/perfmark-api/0.19.0/perfmark-api-0.19.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf/1.30.2/grpc-protobuf-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-api/1.30.2/grpc-api-1.30.2.jar:/home/tharaka/.m2/repository/io/grpc/grpc-context/1.30.2/grpc-context-1.30.2.jar:/home/tharaka/.m2/repository/com/google/api/grpc/proto-google-common-protos/1.17.0/proto-google-common-protos-1.17.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf-lite/1.30.2/grpc-protobuf-lite-1.30.2.jar:/home/tharaka/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:/home/tharaka/.m2/repository/io/grpc/grpc-stub/1.30.2/grpc-stub-1.30.2.jar:/home/tharaka/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/tharaka/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/home/tharaka/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/tharaka/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/tharaka/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/tharaka/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/tharaka/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/home/tharaka/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/home/tharaka/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.1/webdrivermanager-3.7.1.jar:/home/tharaka/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/tharaka/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/home/tharaka/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/home/tharaka/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/home/tharaka/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+11-09-2020 15:54:55.211 [java] [DEBUG] found java executable in /usr/lib/jvm/jdk1.8.0_151/jre/bin/java
+11-09-2020 15:54:55.212 [java] [DEBUG] running - /usr/lib/jvm/jdk1.8.0_151/jre/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+11-09-2020 15:54:55.212 [java] [DEBUG] stdout/stderr is logged to logs/21420-java.out
+11-09-2020 15:55:00.535 [java] [DEBUG] multithreading is set to false
+11-09-2020 15:55:09.728 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+11-09-2020 15:55:21.200 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+11-09-2020 15:55:21.214 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+11-09-2020 15:55:21.214 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+11-09-2020 15:55:38.769 [java] [DEBUG] gauge-java took 37094milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+11-09-2020 15:55:39.020 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 37094
+11-09-2020 15:55:39.020 [java] [DEBUG] starting gRPC server...
+11-09-2020 15:55:44.131 [java] [DEBUG] started gRPC server on port 43311

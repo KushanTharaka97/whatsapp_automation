@@ -1,0 +1,336 @@
+16-09-2020 16:36:00.929 [Gauge] [INFO] Watching directory: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs
+16-09-2020 16:36:00.929 [Gauge] [DEBUG] Found 1 files
+16-09-2020 16:36:00.949 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+16-09-2020 16:36:00.951 [Gauge] [INFO] Initializing specs cache with 1 specs
+16-09-2020 16:36:00.951 [Gauge] [DEBUG] Adding specs from /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/example.spec
+16-09-2020 16:36:00.951 [Gauge] [INFO] Initializing steps cache with 1 steps
+16-09-2020 16:36:00.951 [Gauge] [INFO] Gauge daemon initialized and listening on port: 38031
+16-09-2020 16:36:59.152 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:37:05.039 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+16-09-2020 16:37:05.039 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+16-09-2020 16:37:05.089 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+16-09-2020 16:37:05.090 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+16-09-2020 16:37:05.090 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+16-09-2020 16:37:05.090 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+16-09-2020 16:37:29.937 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:37:29.971 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:37:44.268 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:37:44.307 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:38:07.956 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:38:08.077 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:38:10.701 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 16:38:10.701 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+16-09-2020 16:38:10.722 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 16:38:10.722 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 16:38:10.776 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 16:38:10.776 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+16-09-2020 16:38:10.777 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 16:38:10.777 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 16:38:11.924 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 16:38:11.924 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+16-09-2020 16:38:11.924 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 16:38:11.924 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 16:38:12.712 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"open the" > 
+16-09-2020 16:38:12.712 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"open the" parameterizedStepValue:"open the" > > 
+16-09-2020 16:38:13.837 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 16:38:13.838 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+16-09-2020 16:38:13.838 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 16:38:13.838 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 16:38:13.841 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 16:38:13.841 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+16-09-2020 16:38:13.841 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 16:38:13.841 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 16:38:14.796 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"open the what" > 
+16-09-2020 16:38:14.796 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"open the what" parameterizedStepValue:"open the what" > > 
+16-09-2020 16:38:15.332 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"open the whats" > 
+16-09-2020 16:38:15.333 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"open the whats" parameterizedStepValue:"open the whats" > > 
+16-09-2020 16:38:16.563 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"open the whatsapp" > 
+16-09-2020 16:38:16.564 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"open the whatsapp" parameterizedStepValue:"open the whatsapp" > > 
+16-09-2020 16:38:16.729 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 16:38:16.729 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+16-09-2020 16:38:16.729 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 16:38:16.729 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 16:38:16.731 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 16:38:16.731 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+16-09-2020 16:38:16.731 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 16:38:16.731 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 16:38:17.202 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"open the whatsapp we" > 
+16-09-2020 16:38:17.202 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"open the whatsapp we" parameterizedStepValue:"open the whatsapp we" > > 
+16-09-2020 16:38:18.012 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"open the whatsapp web" > 
+16-09-2020 16:38:18.012 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > > 
+16-09-2020 16:39:00.634 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:39:00.750 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:44:33.056 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:44:33.118 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:44:33.146 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:44:33.174 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:44:33.267 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:44:33.308 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:44:51.874 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:44:51.933 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:44:54.213 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:44:54.244 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:44:59.146 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 16:44:59.146 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > allSteps:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > > 
+16-09-2020 16:44:59.146 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 16:44:59.147 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 16:45:01.137 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell" > 
+16-09-2020 16:45:01.137 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell" parameterizedStepValue:"Tell" > > 
+16-09-2020 16:45:01.555 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 16:45:01.555 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > allSteps:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > > 
+16-09-2020 16:45:01.555 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 16:45:01.555 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 16:45:01.556 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 16:45:01.557 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+16-09-2020 16:45:01.557 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 16:45:01.557 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 16:45:01.991 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell he" > 
+16-09-2020 16:45:01.991 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell he" parameterizedStepValue:"Tell he" > > 
+16-09-2020 16:45:01.992 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell he" > 
+16-09-2020 16:45:01.992 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell he" parameterizedStepValue:"Tell he" > > 
+16-09-2020 16:45:02.447 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell hell" > 
+16-09-2020 16:45:02.448 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell hell" parameterizedStepValue:"Tell hell" > > 
+16-09-2020 16:45:03.109 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell hello" > 
+16-09-2020 16:45:03.110 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell hello" parameterizedStepValue:"Tell hello" > > 
+16-09-2020 16:45:03.453 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 16:45:03.453 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > allSteps:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > > 
+16-09-2020 16:45:03.453 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 16:45:03.453 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 16:45:03.454 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 16:45:03.454 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > allSteps:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+16-09-2020 16:45:03.454 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 16:45:03.454 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 16:45:03.965 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell hello de" > 
+16-09-2020 16:45:03.965 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell hello de" parameterizedStepValue:"Tell hello de" > > 
+16-09-2020 16:45:04.446 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell hello defa" > 
+16-09-2020 16:45:04.446 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell hello defa" parameterizedStepValue:"Tell hello defa" > > 
+16-09-2020 16:45:05.083 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell hello defaul" > 
+16-09-2020 16:45:05.083 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell hello defaul" parameterizedStepValue:"Tell hello defaul" > > 
+16-09-2020 16:45:05.568 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell hello default" > 
+16-09-2020 16:45:05.568 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell hello default" parameterizedStepValue:"Tell hello default" > > 
+16-09-2020 16:45:05.923 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:45:06.036 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:46:36.876 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:46:36.917 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:46:41.099 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 16:46:41.099 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 16:46:41.100 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 16:46:41.100 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 16:46:41.109 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 16:46:41.110 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 16:46:41.111 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 16:46:41.111 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 16:46:41.121 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 16:46:41.121 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 16:46:41.182 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 16:46:41.182 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 16:46:41.183 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 16:46:41.183 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 16:46:41.219 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 16:46:41.219 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 16:46:41.219 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 16:46:41.219 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 16:46:41.249 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 16:46:41.249 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 16:46:41.250 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 16:46:41.250 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 16:46:41.278 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 16:46:41.278 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 16:46:41.279 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 16:46:41.279 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 16:46:46.222 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 16:46:46.223 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > allSteps:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > allSteps:<stepValue:"Tell hello default" parameterizedStepValue:"Tell hello default" > > 
+16-09-2020 16:46:46.223 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 16:46:46.224 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 16:46:46.904 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"go" > 
+16-09-2020 16:46:46.904 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"go" parameterizedStepValue:"go" > > 
+16-09-2020 16:46:46.904 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"go" > 
+16-09-2020 16:46:46.905 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"go" parameterizedStepValue:"go" > > 
+16-09-2020 16:46:47.299 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 16:46:47.299 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > allSteps:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > allSteps:<stepValue:"Tell hello default" parameterizedStepValue:"Tell hello default" > > 
+16-09-2020 16:46:47.300 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 16:46:47.300 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 16:46:47.302 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 16:46:47.302 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > allSteps:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > allSteps:<stepValue:"Tell hello default" parameterizedStepValue:"Tell hello default" > > 
+16-09-2020 16:46:47.303 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 16:46:47.303 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 16:46:47.826 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"go fo" > 
+16-09-2020 16:46:47.826 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"go fo" parameterizedStepValue:"go fo" > > 
+16-09-2020 16:46:47.827 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"go fo" > 
+16-09-2020 16:46:47.827 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"go fo" parameterizedStepValue:"go fo" > > 
+16-09-2020 16:46:48.458 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"go for" > 
+16-09-2020 16:46:48.458 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"go for" parameterizedStepValue:"go for" > > 
+16-09-2020 16:46:50.210 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"go for \"\"" > 
+16-09-2020 16:46:50.211 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"go for {}" parameterizedStepValue:"go for <>" parameters:"" > > 
+16-09-2020 16:46:53.048 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:46:53.086 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:48:01.746 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 16:48:01.746 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > allSteps:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > allSteps:<stepValue:"go for {}" parameterizedStepValue:"go for <>" parameters:"" > allSteps:<stepValue:"Tell hello default" parameterizedStepValue:"Tell hello default" > allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+16-09-2020 16:48:01.746 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 16:48:01.746 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 16:48:01.747 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 16:48:01.747 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"go for {}" parameterizedStepValue:"go for <>" parameters:"" > allSteps:<stepValue:"Tell hello default" parameterizedStepValue:"Tell hello default" > allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > allSteps:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > > 
+16-09-2020 16:48:01.747 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 16:48:01.747 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 16:48:02.478 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"go for \"\" acc" > 
+16-09-2020 16:48:02.478 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"go for {} acc" parameterizedStepValue:"go for <> acc" parameters:"" > > 
+16-09-2020 16:48:03.442 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"go for \"\" accoun" > 
+16-09-2020 16:48:03.443 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"go for {} accoun" parameterizedStepValue:"go for <> accoun" parameters:"" > > 
+16-09-2020 16:48:05.140 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"go for \"\" account" > 
+16-09-2020 16:48:05.140 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"go for {} account" parameterizedStepValue:"go for <> account" parameters:"" > > 
+16-09-2020 16:48:05.962 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:48:05.999 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:48:10.030 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"go for \"A\" account" > 
+16-09-2020 16:48:10.031 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"go for {} account" parameterizedStepValue:"go for <A> account" parameters:"A" > > 
+16-09-2020 16:48:10.547 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"go for \"As\" account" > 
+16-09-2020 16:48:10.548 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"go for {} account" parameterizedStepValue:"go for <As> account" parameters:"As" > > 
+16-09-2020 16:48:11.311 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"go for \"Asi\" account" > 
+16-09-2020 16:48:11.311 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"go for {} account" parameterizedStepValue:"go for <Asi> account" parameters:"Asi" > > 
+16-09-2020 16:48:21.096 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:48:21.134 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:49:58.922 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"go for \"Ashan\" account" > 
+16-09-2020 16:49:58.922 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"go for {} account" parameterizedStepValue:"go for <Ashan> account" parameters:"Ashan" > > 
+16-09-2020 16:49:59.691 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"go for \"Ashani\" account" > 
+16-09-2020 16:49:59.692 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"go for {} account" parameterizedStepValue:"go for <Ashani> account" parameters:"Ashani" > > 
+16-09-2020 16:50:08.525 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"go for <Ashani> account" > 
+16-09-2020 16:50:08.526 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"go for {} account" parameterizedStepValue:"go for <Ashani> account" parameters:"Ashani" > > 
+16-09-2020 16:50:25.728 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:50:25.787 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:52:56.892 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 16:52:56.914 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > allSteps:<stepValue:"go for {} account" parameterizedStepValue:"go for <Ashani> account" parameters:"Ashani" > allSteps:<stepValue:"Tell hello default" parameterizedStepValue:"Tell hello default" > allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+16-09-2020 16:52:56.914 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 16:52:56.914 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 16:52:56.915 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 16:52:56.915 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > allSteps:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > allSteps:<stepValue:"go for {} account" parameterizedStepValue:"go for <Ashani> account" parameters:"Ashani" > allSteps:<stepValue:"Tell hello default" parameterizedStepValue:"Tell hello default" > > 
+16-09-2020 16:52:56.915 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 16:52:56.915 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 16:52:57.771 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell hello default cou" > 
+16-09-2020 16:52:57.772 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell hello default cou" parameterizedStepValue:"Tell hello default cou" > > 
+16-09-2020 16:52:58.765 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell hello default count" > 
+16-09-2020 16:52:58.765 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell hello default count" parameterizedStepValue:"Tell hello default count" > > 
+16-09-2020 16:52:59.810 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell hello default count \"\"" > 
+16-09-2020 16:52:59.810 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell hello default count {}" parameterizedStepValue:"Tell hello default count <>" parameters:"" > > 
+16-09-2020 16:52:59.812 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell hello default count \"\"" > 
+16-09-2020 16:52:59.812 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell hello default count {}" parameterizedStepValue:"Tell hello default count <>" parameters:"" > > 
+16-09-2020 16:53:08.281 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell hello default count <>" > 
+16-09-2020 16:53:08.281 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell hello default count {}" parameterizedStepValue:"Tell hello default count <>" parameters:"" > > 
+16-09-2020 16:53:15.523 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:53:15.650 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:54:52.534 [Gauge] [INFO] Watching directory: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs
+16-09-2020 16:54:52.534 [Gauge] [DEBUG] Found 2 files
+16-09-2020 16:54:52.536 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+16-09-2020 16:54:52.537 [Gauge] [INFO] Initializing specs cache with 2 specs
+16-09-2020 16:54:52.537 [Gauge] [DEBUG] Adding specs from /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 16:54:52.537 [Gauge] [DEBUG] Adding specs from /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/example.spec
+16-09-2020 16:54:52.537 [Gauge] [INFO] Initializing steps cache with 2 steps
+16-09-2020 16:54:52.537 [Gauge] [INFO] Gauge daemon initialized and listening on port: 46837
+16-09-2020 16:57:49.726 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell hello default count <num>" > 
+16-09-2020 16:57:49.726 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell hello default count {}" parameterizedStepValue:"Tell hello default count <num>" parameters:"num" > > 
+16-09-2020 17:14:50.809 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"go for <> account" > 
+16-09-2020 17:14:50.809 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"go for {} account" parameterizedStepValue:"go for <> account" parameters:"" > > 
+16-09-2020 17:14:51.955 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"go for <name> account" > 
+16-09-2020 17:14:51.955 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"go for {} account" parameterizedStepValue:"go for <name> account" parameters:"name" > > 
+16-09-2020 17:22:21.483 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell hello default count \"2\"" > 
+16-09-2020 17:22:21.547 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell hello default count {}" parameterizedStepValue:"Tell hello default count <2>" parameters:"2" > > 
+16-09-2020 17:22:21.547 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell hello default count \"2\"" > 
+16-09-2020 17:22:21.548 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell hello default count {}" parameterizedStepValue:"Tell hello default count <2>" parameters:"2" > > 
+16-09-2020 17:22:22.230 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell hello default count \"20\"" > 
+16-09-2020 17:22:22.230 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell hello default count {}" parameterizedStepValue:"Tell hello default count <20>" parameters:"20" > > 
+16-09-2020 17:22:22.241 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell hello default count \"20\"" > 
+16-09-2020 17:22:22.242 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell hello default count {}" parameterizedStepValue:"Tell hello default count <20>" parameters:"20" > > 
+16-09-2020 17:22:23.025 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 17:22:23.062 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 17:22:44.526 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 17:22:44.564 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 17:22:46.162 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 17:22:46.162 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 17:22:46.167 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 17:22:46.168 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 17:22:46.172 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 17:22:46.172 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 17:22:46.174 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 17:22:46.174 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 17:22:46.176 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 17:22:46.176 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 17:22:46.268 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 17:22:46.269 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 17:22:46.269 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 17:22:46.269 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 17:22:46.296 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 17:22:46.296 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 17:22:46.296 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 17:22:46.296 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 17:22:46.324 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 17:22:46.324 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 17:22:46.325 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 17:22:46.325 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 17:22:46.361 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 17:22:46.361 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 17:22:46.361 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+16-09-2020 17:22:46.361 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+16-09-2020 17:22:47.040 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 17:22:47.040 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Tell hello default count {}" parameterizedStepValue:"Tell hello default count <20>" parameters:"20" > allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > allSteps:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > allSteps:<stepValue:"go for {} account" parameterizedStepValue:"go for <Ashani> account" parameters:"Ashani" > > 
+16-09-2020 17:22:47.040 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 17:22:47.040 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 17:22:49.765 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 17:22:49.765 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > allSteps:<stepValue:"go for {} account" parameterizedStepValue:"go for <Ashani> account" parameters:"Ashani" > allSteps:<stepValue:"Tell hello default count {}" parameterizedStepValue:"Tell hello default count <20>" parameters:"20" > allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+16-09-2020 17:22:49.766 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 17:22:49.766 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 17:22:49.768 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 17:22:49.768 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"go for {} account" parameterizedStepValue:"go for <Ashani> account" parameters:"Ashani" > allSteps:<stepValue:"Tell hello default count {}" parameterizedStepValue:"Tell hello default count <20>" parameters:"20" > allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > allSteps:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > > 
+16-09-2020 17:22:49.769 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 17:22:49.769 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 17:22:51.342 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell message" > 
+16-09-2020 17:22:51.343 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell message" parameterizedStepValue:"Tell message" > > 
+16-09-2020 17:22:55.351 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 17:22:55.351 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"go for {} account" parameterizedStepValue:"go for <Ashani> account" parameters:"Ashani" > allSteps:<stepValue:"Tell hello default count {}" parameterizedStepValue:"Tell hello default count <20>" parameters:"20" > allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > allSteps:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > > 
+16-09-2020 17:22:55.395 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 17:22:55.395 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 17:22:55.397 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 17:22:55.397 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"go for {} account" parameterizedStepValue:"go for <Ashani> account" parameters:"Ashani" > allSteps:<stepValue:"Tell hello default count {}" parameterizedStepValue:"Tell hello default count <20>" parameters:"20" > allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > allSteps:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > > 
+16-09-2020 17:22:55.397 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 17:22:55.397 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 17:22:56.206 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell message foar" > 
+16-09-2020 17:22:56.206 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell message foar" parameterizedStepValue:"Tell message foar" > > 
+16-09-2020 17:22:57.026 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 17:22:57.026 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > allSteps:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > allSteps:<stepValue:"go for {} account" parameterizedStepValue:"go for <Ashani> account" parameters:"Ashani" > allSteps:<stepValue:"Tell hello default count {}" parameterizedStepValue:"Tell hello default count <20>" parameters:"20" > > 
+16-09-2020 17:22:57.027 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 17:22:57.027 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 17:22:57.029 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 17:22:57.029 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > allSteps:<stepValue:"go for {} account" parameterizedStepValue:"go for <Ashani> account" parameters:"Ashani" > allSteps:<stepValue:"Tell hello default count {}" parameterizedStepValue:"Tell hello default count <20>" parameters:"20" > allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+16-09-2020 17:22:57.030 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 17:22:57.030 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 17:22:57.585 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell message for" > 
+16-09-2020 17:22:57.586 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell message for" parameterizedStepValue:"Tell message for" > > 
+16-09-2020 17:23:02.891 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell message for \"\"" > 
+16-09-2020 17:23:02.891 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell message for {}" parameterizedStepValue:"Tell message for <>" parameters:"" > > 
+16-09-2020 17:23:08.352 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell message \"for \"\"\"" > 
+16-09-2020 17:23:08.353 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell message {}{}" parameterizedStepValue:"Tell message <for ><>" parameters:"for " parameters:"" > > 
+16-09-2020 17:23:09.739 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell message \"\"for \"\"" > 
+16-09-2020 17:23:09.739 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell message {}for {}" parameterizedStepValue:"Tell message <>for <>" parameters:"" parameters:"" > > 
+16-09-2020 17:23:11.224 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell message \"\" for \"\"" > 
+16-09-2020 17:23:11.225 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell message {} for {}" parameterizedStepValue:"Tell message <> for <>" parameters:"" parameters:"" > > 
+16-09-2020 17:23:11.636 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 17:23:11.636 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > allSteps:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > allSteps:<stepValue:"go for {} account" parameterizedStepValue:"go for <Ashani> account" parameters:"Ashani" > allSteps:<stepValue:"Tell hello default count {}" parameterizedStepValue:"Tell hello default count <20>" parameters:"20" > allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+16-09-2020 17:23:11.636 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 17:23:11.636 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 17:23:11.637 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+16-09-2020 17:23:11.637 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > allSteps:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > allSteps:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > allSteps:<stepValue:"go for {} account" parameterizedStepValue:"go for <Ashani> account" parameters:"Ashani" > allSteps:<stepValue:"Tell hello default count {}" parameterizedStepValue:"Tell hello default count <20>" parameters:"20" > allSteps:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+16-09-2020 17:23:11.638 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+16-09-2020 17:23:11.638 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+16-09-2020 17:23:12.654 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell message \"\" likefor \"\"" > 
+16-09-2020 17:23:12.654 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell message {} likefor {}" parameterizedStepValue:"Tell message <> likefor <>" parameters:"" parameters:"" > > 
+16-09-2020 17:23:13.058 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell message \"\" like for \"\"" > 
+16-09-2020 17:23:13.058 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell message {} like for {}" parameterizedStepValue:"Tell message <> like for <>" parameters:"" parameters:"" > > 
+16-09-2020 17:23:14.917 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell message \"\" like , for \"\"" > 
+16-09-2020 17:23:14.917 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell message {} like , for {}" parameterizedStepValue:"Tell message <> like , for <>" parameters:"" parameters:"" > > 
+16-09-2020 17:23:20.699 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell message \"\" like , for \"10\"" > 
+16-09-2020 17:23:20.699 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell message {} like , for {}" parameterizedStepValue:"Tell message <> like , for <10>" parameters:"" parameters:"10" > > 
+16-09-2020 17:23:27.250 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell message \"Hello \" like , for \"10\"" > 
+16-09-2020 17:23:27.250 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell message {} like , for {}" parameterizedStepValue:"Tell message <Hello > like , for <10>" parameters:"Hello " parameters:"10" > > 
+16-09-2020 17:23:28.644 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell message \"Hello Hello\" like , for \"10\"" > 
+16-09-2020 17:23:28.644 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell message {} like , for {}" parameterizedStepValue:"Tell message <Hello Hello> like , for <10>" parameters:"Hello Hello" parameters:"10" > > 
+16-09-2020 17:23:33.729 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell message <Hello Hello> like , for <10>" > 
+16-09-2020 17:23:33.729 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell message {} like , for {}" parameterizedStepValue:"Tell message <Hello Hello> like , for <10>" parameters:"Hello Hello" parameters:"10" > > 
+16-09-2020 17:25:05.430 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 17:25:05.458 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
