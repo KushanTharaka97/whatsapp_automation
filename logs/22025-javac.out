@@ -1,0 +1,188 @@
+src/test/java/driver/Driver.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src/test/java/driver/Driver.java:10: error: cannot find symbol
+    public static WebDriver webDriver;
+                  ^
+  symbol:   class WebDriver
+  location: class Driver
+src/test/java/driver/DriverFactory.java:3: error: package io.github.bonigarcia.wdm does not exist
+import io.github.bonigarcia.wdm.WebDriverManager;
+                               ^
+src/test/java/driver/DriverFactory.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src/test/java/driver/DriverFactory.java:5: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+src/test/java/driver/DriverFactory.java:6: error: package org.openqa.selenium.firefox does not exist
+import org.openqa.selenium.firefox.FirefoxDriver;
+                                  ^
+src/test/java/driver/DriverFactory.java:7: error: package org.openqa.selenium.ie does not exist
+import org.openqa.selenium.ie.InternetExplorerDriver;
+                             ^
+src/test/java/driver/DriverFactory.java:8: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeOptions;
+                                 ^
+src/test/java/driver/DriverFactory.java:15: error: cannot find symbol
+    public static WebDriver getDriver() {
+                  ^
+  symbol:   class WebDriver
+  location: class DriverFactory
+src/test/java/example/StepImplementation.java:6: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src/test/java/example/StepImplementation.java:7: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebElement;
+                          ^
+src/test/java/makeTroub/TroubImplementation.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src/test/java/makeTroub/TroubImplementation.java:6: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src/test/java/makeTroub/TroubImplementation.java:7: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebElement;
+                          ^
+src/test/java/makeTroub/TroubImplementation.java:8: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.ExpectedConditions;
+                                     ^
+src/test/java/makeTroub/TroubImplementation.java:9: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.WebDriverWait;
+                                     ^
+src/test/java/makeTroub/TroubImplementation.java:14: error: cannot find symbol
+    WebDriver webDriver = Driver.webDriver;
+    ^
+  symbol:   class WebDriver
+  location: class TroubImplementation
+src/test/java/driver/DriverFactory.java:22: error: cannot find symbol
+                WebDriverManager.iedriver().setup();
+                ^
+  symbol:   variable WebDriverManager
+  location: class DriverFactory
+src/test/java/driver/DriverFactory.java:23: error: cannot find symbol
+                return new InternetExplorerDriver();
+                           ^
+  symbol:   class InternetExplorerDriver
+  location: class DriverFactory
+src/test/java/driver/DriverFactory.java:25: error: cannot find symbol
+                WebDriverManager.firefoxdriver().setup();
+                ^
+  symbol:   variable WebDriverManager
+  location: class DriverFactory
+src/test/java/driver/DriverFactory.java:26: error: cannot find symbol
+                return new FirefoxDriver();
+                           ^
+  symbol:   class FirefoxDriver
+  location: class DriverFactory
+src/test/java/driver/DriverFactory.java:29: error: cannot find symbol
+                WebDriverManager.chromedriver().setup();
+                ^
+  symbol:   variable WebDriverManager
+  location: class DriverFactory
+src/test/java/driver/DriverFactory.java:31: error: cannot find symbol
+	            ChromeOptions options = new ChromeOptions();
+	            ^
+  symbol:   class ChromeOptions
+  location: class DriverFactory
+src/test/java/driver/DriverFactory.java:31: error: cannot find symbol
+	            ChromeOptions options = new ChromeOptions();
+	                                        ^
+  symbol:   class ChromeOptions
+  location: class DriverFactory
+src/test/java/driver/DriverFactory.java:37: error: cannot find symbol
+	            return new ChromeDriver(options);
+	                       ^
+  symbol:   class ChromeDriver
+  location: class DriverFactory
+src/test/java/example/StepImplementation.java:14: error: cannot find symbol
+        WebElement getStartedButton = Driver.webDriver.findElement(By.xpath("//a[@href='https://docs.gauge.org/getting_started/installing-gauge.html']"));
+        ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src/test/java/example/StepImplementation.java:14: error: cannot find symbol
+        WebElement getStartedButton = Driver.webDriver.findElement(By.xpath("//a[@href='https://docs.gauge.org/getting_started/installing-gauge.html']"));
+                                                                   ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/example/StepImplementation.java:22: error: cannot find symbol
+        WebElement instructions = Driver.webDriver.findElement(By.xpath("//a[@href='/writing-specifications.html']"));
+        ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src/test/java/example/StepImplementation.java:22: error: cannot find symbol
+        WebElement instructions = Driver.webDriver.findElement(By.xpath("//a[@href='/writing-specifications.html']"));
+                                                               ^
+  symbol:   variable By
+  location: class StepImplementation
+src/test/java/makeTroub/TroubImplementation.java:38: error: cannot find symbol
+        WebElement theNameOfTheReceiver = webDriver.findElement(By.xpath("//span[@class='_3ko75 _5h6Y_ _3Whw5' and @titile='"+userName+"]"));
+        ^
+  symbol:   class WebElement
+  location: class TroubImplementation
+src/test/java/makeTroub/TroubImplementation.java:38: error: cannot find symbol
+        WebElement theNameOfTheReceiver = webDriver.findElement(By.xpath("//span[@class='_3ko75 _5h6Y_ _3Whw5' and @titile='"+userName+"]"));
+                                                                ^
+  symbol:   variable By
+  location: class TroubImplementation
+src/test/java/makeTroub/TroubImplementation.java:53: error: cannot find symbol
+                new WebDriverWait(webDriver, 30).until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='_3FRCZ copyable-text selectable-text']"))).sendKeys("hello");
+                    ^
+  symbol:   class WebDriverWait
+  location: class TroubImplementation
+src/test/java/makeTroub/TroubImplementation.java:53: error: cannot find symbol
+                new WebDriverWait(webDriver, 30).until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='_3FRCZ copyable-text selectable-text']"))).sendKeys("hello");
+                                                       ^
+  symbol:   variable ExpectedConditions
+  location: class TroubImplementation
+src/test/java/makeTroub/TroubImplementation.java:53: error: cannot find symbol
+                new WebDriverWait(webDriver, 30).until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='_3FRCZ copyable-text selectable-text']"))).sendKeys("hello");
+                                                                                               ^
+  symbol:   variable By
+  location: class TroubImplementation
+src/test/java/makeTroub/TroubImplementation.java:56: error: cannot find symbol
+                new WebDriverWait(webDriver, 30).until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='_1U1xa']"))).click();
+                    ^
+  symbol:   class WebDriverWait
+  location: class TroubImplementation
+src/test/java/makeTroub/TroubImplementation.java:56: error: cannot find symbol
+                new WebDriverWait(webDriver, 30).until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='_1U1xa']"))).click();
+                                                       ^
+  symbol:   variable ExpectedConditions
+  location: class TroubImplementation
+src/test/java/makeTroub/TroubImplementation.java:56: error: cannot find symbol
+                new WebDriverWait(webDriver, 30).until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='_1U1xa']"))).click();
+                                                                                               ^
+  symbol:   variable By
+  location: class TroubImplementation
+src/test/java/makeTroub/TroubImplementation.java:81: error: cannot find symbol
+                new WebDriverWait(webDriver, 30).until(ExpectedConditions.elementToBeClickable(By.className("_3ixn"))).sendKeys(message);
+                    ^
+  symbol:   class WebDriverWait
+  location: class TroubImplementation
+src/test/java/makeTroub/TroubImplementation.java:81: error: cannot find symbol
+                new WebDriverWait(webDriver, 30).until(ExpectedConditions.elementToBeClickable(By.className("_3ixn"))).sendKeys(message);
+                                                       ^
+  symbol:   variable ExpectedConditions
+  location: class TroubImplementation
+src/test/java/makeTroub/TroubImplementation.java:81: error: cannot find symbol
+                new WebDriverWait(webDriver, 30).until(ExpectedConditions.elementToBeClickable(By.className("_3ixn"))).sendKeys(message);
+                                                                                               ^
+  symbol:   variable By
+  location: class TroubImplementation
+src/test/java/makeTroub/TroubImplementation.java:84: error: cannot find symbol
+                new WebDriverWait(webDriver, 30).until(ExpectedConditions.elementToBeClickable(By.className("_3ixn"))).click();
+                    ^
+  symbol:   class WebDriverWait
+  location: class TroubImplementation
+src/test/java/makeTroub/TroubImplementation.java:84: error: cannot find symbol
+                new WebDriverWait(webDriver, 30).until(ExpectedConditions.elementToBeClickable(By.className("_3ixn"))).click();
+                                                       ^
+  symbol:   variable ExpectedConditions
+  location: class TroubImplementation
+src/test/java/makeTroub/TroubImplementation.java:84: error: cannot find symbol
+                new WebDriverWait(webDriver, 30).until(ExpectedConditions.elementToBeClickable(By.className("_3ixn"))).click();
+                                                                                               ^
+  symbol:   variable By
+  location: class TroubImplementation
+43 errors

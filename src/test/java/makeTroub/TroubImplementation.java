@@ -18,9 +18,15 @@ public class TroubImplementation {
     public void navigateToWhatsApp() {
         System.out.println("-----[INFO]---BeginTroubleImplementations-----------");
         //log into whatsapp web
+        try {
         String app_url = System.getenv("WHATS_APP_URL");
         Driver.webDriver.get(app_url + "/");
-        assertThat(Driver.webDriver.getTitle()).contains("Gauge");
+
+            Thread.sleep(7000);
+        } catch (InterruptedException e) {
+            System.out.println("--Error was: "+e);
+        }
+        //assertThat(Driver.webDriver.getTitle()).contains("Gauge");
     }
 
 
@@ -29,7 +35,7 @@ public class TroubImplementation {
 
         String userName = name;
         //have to declare proper elements ID or classes those got from the whats app
-        WebElement theNameOfTheReceiver = webDriver.findElement(By.xpath(""));
+        WebElement theNameOfTheReceiver = webDriver.findElement(By.xpath("//span[@class='_3ko75 _5h6Y_ _3Whw5' and @titile='"+userName+"']"));
         System.out.println("--[WARNING]--Have to check is this right user or not ");
     }
 
@@ -44,10 +50,10 @@ public class TroubImplementation {
 
                 //put the message on the message input box
                 System.out.println("--[INFO]----going to insert the message to input box");
-                new WebDriverWait(webDriver, 30).until(ExpectedConditions.elementToBeClickable(By.className("_3ixn"))).sendKeys("hello");
+                new WebDriverWait(webDriver, 30).until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='_3FRCZ copyable-text selectable-text']"))).sendKeys("hello");
                 Thread.sleep(2000);
                 //send the message by clicking the send button
-                new WebDriverWait(webDriver, 30).until(ExpectedConditions.elementToBeClickable(By.className("_3ixn"))).click();
+                new WebDriverWait(webDriver, 30).until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='_1U1xa']"))).click();
                 System.out.println("-----[INFO]--'Now executed ::" + i + " ::number of hello'");
                 Thread.sleep(1000);
 

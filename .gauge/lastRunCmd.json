@@ -1,6 +1,6 @@
 [
 	"gauge",
 	"run",
-	"--dir=/opt/kushan/gauge/gauge-project-fb-2020-09-11",
-	"/opt/kushan/gauge/gauge-project-fb-2020-09-11/specs"
+	"--dir=/media/tharaka/New Volume/gauge-maven/whatsapp_automation",
+	"/media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs"
 ]

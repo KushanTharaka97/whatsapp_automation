@@ -334,3 +334,42 @@
 16-09-2020 17:23:33.729 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell message {} like , for {}" parameterizedStepValue:"Tell message <Hello Hello> like , for <10>" parameters:"Hello Hello" parameters:"10" > > 
 16-09-2020 17:25:05.430 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
 16-09-2020 17:25:05.458 [Gauge] [INFO] Spec file added / modified: /opt/kushan/gauge/gauge-project-fb-2020-09-11/specs/trouble.spec
+16-09-2020 23:22:18.747 [Gauge] [INFO] Watching directory: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs
+16-09-2020 23:22:18.748 [Gauge] [DEBUG] Found 2 files
+16-09-2020 23:22:18.753 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+16-09-2020 23:22:18.759 [Gauge] [INFO] Initializing specs cache with 2 specs
+16-09-2020 23:22:18.760 [Gauge] [DEBUG] Adding specs from /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/example.spec
+16-09-2020 23:22:18.760 [Gauge] [DEBUG] Adding specs from /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:22:18.760 [Gauge] [INFO] Initializing steps cache with 2 steps
+16-09-2020 23:22:18.771 [Gauge] [INFO] Gauge daemon initialized and listening on port: 37291
+16-09-2020 23:25:33.756 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"go for <name> account" > 
+16-09-2020 23:25:33.790 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"go for {} account" parameterizedStepValue:"go for <name> account" parameters:"name" > > 
+16-09-2020 23:25:34.889 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell hello default count <num>" > 
+16-09-2020 23:25:34.890 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell hello default count {}" parameterizedStepValue:"Tell hello default count <num>" parameters:"num" > > 
+16-09-2020 23:25:35.406 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell message <Hello Hello> like , for <10>" > 
+16-09-2020 23:25:35.406 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell message {} like , for {}" parameterizedStepValue:"Tell message <Hello Hello> like , for <10>" parameters:"Hello Hello" parameters:"10" > > 
+16-09-2020 23:25:35.539 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"open the whatsapp web" > 
+16-09-2020 23:25:35.539 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > > 
+16-09-2020 23:50:23.869 [Gauge] [INFO] Watching directory: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs
+16-09-2020 23:50:23.922 [Gauge] [DEBUG] Found 2 files
+16-09-2020 23:50:24.072 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+16-09-2020 23:50:24.080 [Gauge] [INFO] Initializing specs cache with 2 specs
+16-09-2020 23:50:24.101 [Gauge] [DEBUG] Adding specs from /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/example.spec
+16-09-2020 23:50:24.101 [Gauge] [DEBUG] Adding specs from /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:50:24.101 [Gauge] [INFO] Initializing steps cache with 2 steps
+16-09-2020 23:50:24.101 [Gauge] [INFO] Gauge daemon initialized and listening on port: 32913
+16-09-2020 23:56:11.568 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:56:11.598 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+17-09-2020 00:17:48.067 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"open the whatsapp web" > 
+17-09-2020 00:17:48.067 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"open the whatsapp web" parameterizedStepValue:"open the whatsapp web" > > 
+17-09-2020 00:17:49.343 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"go for <name> account" > 
+17-09-2020 00:17:49.360 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"go for {} account" parameterizedStepValue:"go for <name> account" parameters:"name" > > 
+17-09-2020 00:17:49.605 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell hello default count <num>" > 
+17-09-2020 00:17:49.606 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell hello default count {}" parameterizedStepValue:"Tell hello default count <num>" parameters:"num" > > 
+17-09-2020 00:17:49.801 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Tell message <Hello Hello> like , for <10>" > 
+17-09-2020 00:17:49.801 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Tell message {} like , for {}" parameterizedStepValue:"Tell message <Hello Hello> like , for <10>" parameters:"Hello Hello" parameters:"10" > > 
+17-09-2020 00:28:08.925 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+17-09-2020 00:29:07.048 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+17-09-2020 00:29:07.049 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+17-09-2020 00:32:11.414 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+17-09-2020 00:32:11.415 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec

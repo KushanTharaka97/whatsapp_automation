@@ -450,3 +450,237 @@ Some of the gauge lsp feature will not work as expected.
 11-09-2020 15:55:39.020 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 37094
 11-09-2020 15:55:39.020 [java] [DEBUG] starting gRPC server...
 11-09-2020 15:55:44.131 [java] [DEBUG] started gRPC server on port 43311
+16-09-2020 21:44:14.442 [Gauge] [INFO] Watching directory: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs
+16-09-2020 21:44:14.444 [Gauge] [DEBUG] Found 2 files
+16-09-2020 21:44:14.814 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+16-09-2020 21:44:14.850 [Gauge] [INFO] Initializing specs cache with 2 specs
+16-09-2020 21:44:14.850 [Gauge] [DEBUG] Adding specs from /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/example.spec
+16-09-2020 21:44:14.850 [Gauge] [DEBUG] Adding specs from /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 21:44:14.850 [Gauge] [INFO] Initializing steps cache with 2 steps
+16-09-2020 21:44:14.957 [Gauge] [INFO] Starting language runner
+16-09-2020 21:44:15.998 [java] [DEBUG] ***** Printing Properties/Env Values *****
+16-09-2020 21:44:16.037 [java] [DEBUG] PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/media/tharaka/New Volume/flutter/flutter_linux_v1.12.13+hotfix.8-stable/flutter/bin:/snap/bin:/home/tharaka/.gauge/plugins/screenshot/0.0.1
+16-09-2020 21:44:16.093 [java] [DEBUG] JAVA_HOME: /usr/lib/jvm/java-11-openjdk-amd64
+16-09-2020 21:44:16.094 [java] [DEBUG] gauge_project_root: 
+16-09-2020 21:44:16.094 [java] [DEBUG] gauge_parallel_streams_count: 
+16-09-2020 21:44:16.094 [java] [DEBUG] gauge_reports_dir: reports
+16-09-2020 21:44:16.094 [java] [DEBUG] overwrite_reports: true
+16-09-2020 21:44:16.095 [java] [DEBUG] logs_directory: logs
+16-09-2020 21:44:16.095 [java] [DEBUG] enable_multithreading: false
+16-09-2020 21:44:16.140 [java] [DEBUG] gauge_specs_dir: specs
+16-09-2020 21:44:16.140 [java] [DEBUG] csv_delimiter: ,
+16-09-2020 21:44:16.140 [java] [DEBUG] gauge_java_home: 
+16-09-2020 21:44:16.141 [java] [DEBUG] gauge_custom_build_path: 
+16-09-2020 21:44:16.141 [java] [DEBUG] gauge_additional_libs: libs/*
+16-09-2020 21:44:16.141 [java] [DEBUG] gauge_jvm_args: 
+16-09-2020 21:44:16.141 [java] [DEBUG] gauge_custom_compile_dir: 
+16-09-2020 21:44:16.142 [java] [DEBUG] gauge_clear_state_level: scenario
+16-09-2020 21:44:16.142 [java] [DEBUG] ***** END *****
+16-09-2020 21:44:18.375 [java] [ERROR] WARNING: An illegal reflective access operation has occurred
+16-09-2020 21:44:18.375 [java] [ERROR] WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+16-09-2020 21:44:18.376 [java] [ERROR] WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+16-09-2020 21:44:18.376 [java] [ERROR] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+16-09-2020 21:44:18.376 [java] [ERROR] WARNING: All illegal access operations will be denied in a future release
+16-09-2020 21:44:25.152 [java] [ERROR] Installed version of gauge-java (0.7.9) does not match with dependency gauge-java (0.7.10) specified in pom.xml file
+16-09-2020 21:44:25.153 [java] [DEBUG] classpath set to /media/tharaka/New Volume/gauge-maven/whatsapp_automation/target/test-classes:/media/tharaka/New Volume/gauge-maven/whatsapp_automation/target/classes:/home/tharaka/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.10/gauge-java-0.7.10.jar:/home/tharaka/.m2/repository/com/github/javaparser/javaparser-core/3.16.1/javaparser-core-3.16.1.jar:/home/tharaka/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/home/tharaka/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/tharaka/.m2/repository/org/json/json/20200518/json-20200518.jar:/home/tharaka/.m2/repository/com/google/protobuf/protobuf-java/3.13.0/protobuf-java-3.13.0.jar:/home/tharaka/.m2/repository/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar:/home/tharaka/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/tharaka/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/tharaka/.m2/repository/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar:/home/tharaka/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/tharaka/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/tharaka/.m2/repository/io/grpc/grpc-netty-shaded/1.32.1/grpc-netty-shaded-1.32.1.jar:/home/tharaka/.m2/repository/io/grpc/grpc-core/1.32.1/grpc-core-1.32.1.jar:/home/tharaka/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/tharaka/.m2/repository/io/perfmark/perfmark-api/0.19.0/perfmark-api-0.19.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf/1.32.1/grpc-protobuf-1.32.1.jar:/home/tharaka/.m2/repository/io/grpc/grpc-api/1.32.1/grpc-api-1.32.1.jar:/home/tharaka/.m2/repository/io/grpc/grpc-context/1.32.1/grpc-context-1.32.1.jar:/home/tharaka/.m2/repository/com/google/api/grpc/proto-google-common-protos/1.17.0/proto-google-common-protos-1.17.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf-lite/1.32.1/grpc-protobuf-lite-1.32.1.jar:/home/tharaka/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:/home/tharaka/.m2/repository/io/grpc/grpc-stub/1.32.1/grpc-stub-1.32.1.jar:/home/tharaka/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/tharaka/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/home/tharaka/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/tharaka/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/tharaka/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/tharaka/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/tharaka/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/home/tharaka/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/home/tharaka/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.1/webdrivermanager-3.7.1.jar:/home/tharaka/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/tharaka/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/home/tharaka/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/home/tharaka/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/home/tharaka/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+16-09-2020 21:44:25.263 [java] [DEBUG] found java executable in /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+16-09-2020 21:44:25.263 [java] [DEBUG] running - /usr/lib/jvm/java-11-openjdk-amd64/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+16-09-2020 21:44:25.285 [java] [DEBUG] stdout/stderr is logged to logs/8427-java.out
+16-09-2020 21:44:25.560 [java] [DEBUG] multithreading is set to false
+16-09-2020 21:44:26.315 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+16-09-2020 21:44:27.086 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+16-09-2020 21:44:27.086 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+16-09-2020 21:44:27.087 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+16-09-2020 21:44:27.815 [java] [DEBUG] gauge-java took 2255milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+16-09-2020 21:44:27.815 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 2255
+16-09-2020 21:44:27.816 [java] [DEBUG] starting gRPC server...
+16-09-2020 21:44:28.031 [java] [DEBUG] started gRPC server on port 43317
+16-09-2020 21:44:28.031 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 43317
+16-09-2020 21:44:28.385 [Gauge] [DEBUG] Successfully made the connection with runner with port: 43317
+16-09-2020 21:44:28.385 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+16-09-2020 21:44:28.663 [Gauge] [DEBUG] Validation started.
+16-09-2020 21:44:29.949 [java] [DEBUG] Scanning packages for steps
+16-09-2020 21:44:29.970 [java] [DEBUG] Comparing 'example.StepImplementation.implementation1' and 'example.StepImplementation.implementation1'
+16-09-2020 21:44:29.971 [java] [DEBUG] Found Open the Gauge homepage in current project scope.
+16-09-2020 21:44:29.972 [java] [DEBUG] Comparing 'example.StepImplementation.gotoGetStartedPage' and 'example.StepImplementation.gotoGetStartedPage'
+16-09-2020 21:44:29.972 [java] [DEBUG] Found Go to Gauge Get Started Page in current project scope.
+16-09-2020 21:44:29.974 [java] [DEBUG] Comparing 'example.StepImplementation.ensureInstallationInstructionsAreAvailable' and 'example.StepImplementation.ensureInstallationInstructionsAreAvailable'
+16-09-2020 21:44:29.975 [java] [DEBUG] Found Ensure installation instructions are available in current project scope.
+16-09-2020 21:44:29.975 [java] [DEBUG] Scanning packages for hooks
+16-09-2020 21:44:29.986 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+16-09-2020 21:44:29.987 [java] [DEBUG] 	Open the Gauge homepage : public void implementation1()
+16-09-2020 21:44:29.987 [java] [DEBUG] 	Go to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException
+16-09-2020 21:44:29.988 [java] [DEBUG] 	Tell message {} like , for {} : public void customMessageWithTime(String msg, String num)
+16-09-2020 21:44:29.988 [java] [DEBUG] 	Tell hello default count {} : public void hello(String num)
+16-09-2020 21:44:29.988 [java] [DEBUG] 	Ensure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException
+16-09-2020 21:44:29.988 [java] [DEBUG] 	open the whatsapp web : public void navigateToWhatsApp()
+16-09-2020 21:44:29.988 [java] [DEBUG] 	go for {} account : public void goForSpecificName(String name)
+16-09-2020 21:44:31.221 [Gauge] [DEBUG] Validation completed.
+16-09-2020 22:12:48.718 [Gauge] [DEBUG] Validation started.
+16-09-2020 22:12:48.743 [Gauge] [DEBUG] Validation completed.
+16-09-2020 22:59:25.233 [Gauge] [DEBUG] Validation started.
+16-09-2020 22:59:25.267 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:05:44.564 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:05:44.626 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:05:44.637 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:05:44.690 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:05:47.274 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:05:47.320 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:05:47.331 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:05:47.349 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:05:47.794 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:05:47.839 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:05:58.977 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:05:58.999 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:06:00.251 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:06:00.286 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:06:01.632 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:06:01.675 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:06:02.197 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:06:02.218 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:06:03.045 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:06:03.082 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:06:03.755 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:06:04.023 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:06:04.472 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:06:05.878 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:06:06.770 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:06:07.753 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:06:09.053 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:06:09.604 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:06:12.346 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:06:12.371 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:07:45.804 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:07:45.862 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:07:46.040 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:07:46.064 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:07:46.937 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:07:46.958 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:07:47.243 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:07:47.367 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:07:48.738 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:07:48.745 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:07:49.024 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:07:49.029 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:07:49.063 [Gauge] [DEBUG] request #71: textDocument/codeLens: failed to parse /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+/media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec:8 Scenario should have atleast one step
+16-09-2020 23:07:49.200 [Gauge] [DEBUG] request #72: textDocument/documentSymbol: parsing failed for /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec. [[ParseError] /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec:8 Scenario should have atleast one step => '']
+16-09-2020 23:07:49.313 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:07:49.334 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:07:51.774 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:07:51.795 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:07:51.830 [Gauge] [DEBUG] request #76: textDocument/codeLens: failed to parse /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+/media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec:8 Scenario should have atleast one step
+16-09-2020 23:07:51.907 [Gauge] [DEBUG] request #77: textDocument/documentSymbol: parsing failed for /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec. [[ParseError] /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec:8 Scenario should have atleast one step => '']
+16-09-2020 23:07:52.061 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:07:52.103 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:07:52.493 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:07:52.502 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:07:52.547 [Gauge] [DEBUG] request #79: textDocument/codeLens: failed to parse /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+/media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec:8 Scenario should have atleast one step
+16-09-2020 23:07:52.624 [Gauge] [DEBUG] request #80: textDocument/documentSymbol: parsing failed for /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec. [[ParseError] /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec:8 Scenario should have atleast one step => '']
+16-09-2020 23:07:52.778 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:07:52.783 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:07:53.659 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:07:53.668 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:07:53.891 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:07:53.898 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:07:53.943 [Gauge] [DEBUG] request #82: textDocument/codeLens: failed to parse /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+/media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec:8 Scenario should have atleast one step
+16-09-2020 23:07:54.029 [Gauge] [DEBUG] request #83: textDocument/documentSymbol: parsing failed for /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec. [[ParseError] /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec:8 Scenario should have atleast one step => '']
+16-09-2020 23:07:54.182 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:07:54.183 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:07:56.406 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:07:56.411 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:07:56.445 [Gauge] [DEBUG] request #87: textDocument/codeLens: failed to parse /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+/media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec:8 Scenario should have atleast one step
+16-09-2020 23:07:56.713 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:07:56.726 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:07:56.997 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:07:57.026 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:07:58.077 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:07:58.088 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:07:58.328 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:07:58.343 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:07:58.615 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:07:58.617 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:08:21.977 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:08:21.993 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:08:22.268 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:08:22.285 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:08:24.449 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:08:24.486 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:08:24.715 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:08:24.730 [Gauge] [INFO] Spec file added / modified: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:09:23.086 [Gauge] [DEBUG] Runner with PID:8427 has exited
+16-09-2020 23:09:40.628 [Gauge] [INFO] Watching directory: /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs
+16-09-2020 23:09:40.628 [Gauge] [DEBUG] Found 2 files
+16-09-2020 23:09:40.641 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+16-09-2020 23:09:40.644 [Gauge] [INFO] Initializing specs cache with 2 specs
+16-09-2020 23:09:40.644 [Gauge] [DEBUG] Adding specs from /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/example.spec
+16-09-2020 23:09:40.644 [Gauge] [DEBUG] Adding specs from /media/tharaka/New Volume/gauge-maven/whatsapp_automation/specs/trouble.spec
+16-09-2020 23:09:40.644 [Gauge] [INFO] Initializing steps cache with 2 steps
+16-09-2020 23:09:40.645 [Gauge] [INFO] Starting language runner
+16-09-2020 23:09:40.661 [java] [DEBUG] ***** Printing Properties/Env Values *****
+16-09-2020 23:09:40.661 [java] [DEBUG] PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/media/tharaka/New Volume/flutter/flutter_linux_v1.12.13+hotfix.8-stable/flutter/bin:/snap/bin:/home/tharaka/.gauge/plugins/screenshot/0.0.1
+16-09-2020 23:09:40.662 [java] [DEBUG] JAVA_HOME: /usr/lib/jvm/java-11-openjdk-amd64
+16-09-2020 23:09:40.662 [java] [DEBUG] gauge_project_root: 
+16-09-2020 23:09:40.662 [java] [DEBUG] gauge_parallel_streams_count: 
+16-09-2020 23:09:40.662 [java] [DEBUG] gauge_reports_dir: reports
+16-09-2020 23:09:40.662 [java] [DEBUG] overwrite_reports: true
+16-09-2020 23:09:40.662 [java] [DEBUG] logs_directory: logs
+16-09-2020 23:09:40.663 [java] [DEBUG] enable_multithreading: false
+16-09-2020 23:09:40.663 [java] [DEBUG] gauge_specs_dir: specs
+16-09-2020 23:09:40.663 [java] [DEBUG] csv_delimiter: ,
+16-09-2020 23:09:40.663 [java] [DEBUG] gauge_java_home: 
+16-09-2020 23:09:40.663 [java] [DEBUG] gauge_custom_build_path: 
+16-09-2020 23:09:40.663 [java] [DEBUG] gauge_additional_libs: libs/*
+16-09-2020 23:09:40.663 [java] [DEBUG] gauge_jvm_args: 
+16-09-2020 23:09:40.663 [java] [DEBUG] gauge_custom_compile_dir: 
+16-09-2020 23:09:40.664 [java] [DEBUG] gauge_clear_state_level: scenario
+16-09-2020 23:09:40.664 [java] [DEBUG] ***** END *****
+16-09-2020 23:09:43.874 [java] [ERROR] WARNING: An illegal reflective access operation has occurred
+16-09-2020 23:09:43.875 [java] [ERROR] WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+16-09-2020 23:09:43.875 [java] [ERROR] WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+16-09-2020 23:09:43.875 [java] [ERROR] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+16-09-2020 23:09:43.875 [java] [ERROR] WARNING: All illegal access operations will be denied in a future release
+16-09-2020 23:09:57.188 [java] [ERROR] Installed version of gauge-java (0.7.9) does not match with dependency gauge-java (0.7.10) specified in pom.xml file
+16-09-2020 23:09:57.193 [java] [DEBUG] classpath set to /media/tharaka/New Volume/gauge-maven/whatsapp_automation/target/test-classes:/media/tharaka/New Volume/gauge-maven/whatsapp_automation/target/classes:/home/tharaka/.m2/repository/com/thoughtworks/gauge/gauge-java/0.7.10/gauge-java-0.7.10.jar:/home/tharaka/.m2/repository/com/github/javaparser/javaparser-core/3.16.1/javaparser-core-3.16.1.jar:/home/tharaka/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/home/tharaka/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/tharaka/.m2/repository/org/json/json/20200518/json-20200518.jar:/home/tharaka/.m2/repository/com/google/protobuf/protobuf-java/3.13.0/protobuf-java-3.13.0.jar:/home/tharaka/.m2/repository/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar:/home/tharaka/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/tharaka/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/tharaka/.m2/repository/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar:/home/tharaka/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/tharaka/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/tharaka/.m2/repository/io/grpc/grpc-netty-shaded/1.32.1/grpc-netty-shaded-1.32.1.jar:/home/tharaka/.m2/repository/io/grpc/grpc-core/1.32.1/grpc-core-1.32.1.jar:/home/tharaka/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/tharaka/.m2/repository/io/perfmark/perfmark-api/0.19.0/perfmark-api-0.19.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf/1.32.1/grpc-protobuf-1.32.1.jar:/home/tharaka/.m2/repository/io/grpc/grpc-api/1.32.1/grpc-api-1.32.1.jar:/home/tharaka/.m2/repository/io/grpc/grpc-context/1.32.1/grpc-context-1.32.1.jar:/home/tharaka/.m2/repository/com/google/api/grpc/proto-google-common-protos/1.17.0/proto-google-common-protos-1.17.0.jar:/home/tharaka/.m2/repository/io/grpc/grpc-protobuf-lite/1.32.1/grpc-protobuf-lite-1.32.1.jar:/home/tharaka/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:/home/tharaka/.m2/repository/io/grpc/grpc-stub/1.32.1/grpc-stub-1.32.1.jar:/home/tharaka/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/tharaka/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/home/tharaka/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/home/tharaka/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/tharaka/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/tharaka/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/tharaka/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/tharaka/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/tharaka/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/home/tharaka/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/home/tharaka/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.1/webdrivermanager-3.7.1.jar:/home/tharaka/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/tharaka/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/home/tharaka/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/home/tharaka/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/home/tharaka/.m2/repository/org/reflections/reflections/0.9.10/reflections-0.9.10.jar:/home/tharaka/.m2/repository/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.jar:/home/tharaka/.m2/repository/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar
+16-09-2020 23:09:57.204 [java] [DEBUG] found java executable in /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+16-09-2020 23:09:57.206 [java] [DEBUG] running - /usr/lib/jvm/java-11-openjdk-amd64/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+16-09-2020 23:09:57.206 [java] [DEBUG] stdout/stderr is logged to logs/13392-java.out
+16-09-2020 23:09:57.908 [java] [DEBUG] multithreading is set to false
+16-09-2020 23:10:00.400 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+16-09-2020 23:10:01.458 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+16-09-2020 23:10:01.464 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+16-09-2020 23:10:01.464 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+16-09-2020 23:10:02.740 [java] [DEBUG] gauge-java took 4832milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+16-09-2020 23:10:02.741 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 4832
+16-09-2020 23:10:02.741 [java] [DEBUG] starting gRPC server...
+16-09-2020 23:10:03.133 [java] [DEBUG] started gRPC server on port 37725
+16-09-2020 23:10:03.133 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 37725
+16-09-2020 23:10:03.682 [Gauge] [DEBUG] Successfully made the connection with runner with port: 37725
+16-09-2020 23:10:03.683 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+16-09-2020 23:10:03.926 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:10:07.717 [java] [DEBUG] Scanning packages for steps
+16-09-2020 23:10:07.817 [java] [DEBUG] Comparing 'example.StepImplementation.implementation1' and 'example.StepImplementation.implementation1'
+16-09-2020 23:10:07.834 [java] [DEBUG] Found Open the Gauge homepage in current project scope.
+16-09-2020 23:10:07.838 [java] [DEBUG] Comparing 'example.StepImplementation.gotoGetStartedPage' and 'example.StepImplementation.gotoGetStartedPage'
+16-09-2020 23:10:07.841 [java] [DEBUG] Found Go to Gauge Get Started Page in current project scope.
+16-09-2020 23:10:07.843 [java] [DEBUG] Comparing 'example.StepImplementation.ensureInstallationInstructionsAreAvailable' and 'example.StepImplementation.ensureInstallationInstructionsAreAvailable'
+16-09-2020 23:10:07.844 [java] [DEBUG] Found Ensure installation instructions are available in current project scope.
+16-09-2020 23:10:07.845 [java] [DEBUG] Scanning packages for hooks
+16-09-2020 23:10:07.938 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+16-09-2020 23:10:07.939 [java] [DEBUG] 	Open the Gauge homepage : public void implementation1()
+16-09-2020 23:10:07.939 [java] [DEBUG] 	Go to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException
+16-09-2020 23:10:07.939 [java] [DEBUG] 	Tell message {} like , for {} : public void customMessageWithTime(String msg, String num)
+16-09-2020 23:10:07.940 [java] [DEBUG] 	Tell hello default count {} : public void hello(String num)
+16-09-2020 23:10:07.940 [java] [DEBUG] 	Ensure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException
+16-09-2020 23:10:07.940 [java] [DEBUG] 	open the whatsapp web : public void navigateToWhatsApp()
+16-09-2020 23:10:07.940 [java] [DEBUG] 	go for {} account : public void goForSpecificName(String name)
+16-09-2020 23:10:11.062 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:10:11.080 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:10:11.171 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:13:22.722 [Gauge] [DEBUG] Validation started.
+16-09-2020 23:13:22.767 [Gauge] [DEBUG] Validation completed.
+16-09-2020 23:15:00.804 [Gauge] [DEBUG] Runner with PID:13392 has exited

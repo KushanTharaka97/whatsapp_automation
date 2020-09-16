@@ -1,0 +1,47 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1327milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1327"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 40381"}
+{"logLevel":"info","message":"Listening on port:40381"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'makeTroub.TroubImplementation.goForSpecificName' and 'makeTroub.TroubImplementation.goForSpecificName'"}
+{"logLevel":"debug","message":"Found go for {} account in current project scope."}
+{"logLevel":"debug","message":"Comparing 'makeTroub.TroubImplementation.customMessageWithTime' and 'makeTroub.TroubImplementation.customMessageWithTime'"}
+{"logLevel":"debug","message":"Found Tell message {} like , for {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'example.StepImplementation.implementation1' and 'example.StepImplementation.implementation1'"}
+{"logLevel":"debug","message":"Found Open the Gauge homepage in current project scope."}
+{"logLevel":"debug","message":"Comparing 'example.StepImplementation.gotoGetStartedPage' and 'example.StepImplementation.gotoGetStartedPage'"}
+{"logLevel":"debug","message":"Found Go to Gauge Get Started Page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'makeTroub.TroubImplementation.hello' and 'makeTroub.TroubImplementation.hello'"}
+{"logLevel":"debug","message":"Found Tell hello default count {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'example.StepImplementation.ensureInstallationInstructionsAreAvailable' and 'example.StepImplementation.ensureInstallationInstructionsAreAvailable'"}
+{"logLevel":"debug","message":"Found Ensure installation instructions are available in current project scope."}
+{"logLevel":"debug","message":"Comparing 'makeTroub.TroubImplementation.navigateToWhatsApp' and 'makeTroub.TroubImplementation.navigateToWhatsApp'"}
+{"logLevel":"debug","message":"Found open the whatsapp web in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tOpen the Gauge homepage : public void implementation1()"}
+{"logLevel":"debug","message":"\tGo to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException"}
+{"logLevel":"debug","message":"\tTell message {} like , for {} : public void customMessageWithTime(String msg, String num)"}
+{"logLevel":"debug","message":"\tTell hello default count {} : public void hello(String num)"}
+{"logLevel":"debug","message":"\tEnsure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException"}
+{"logLevel":"debug","message":"\topen the whatsapp web : public void navigateToWhatsApp()"}
+{"logLevel":"debug","message":"\tgo for {} account : public void goForSpecificName(String name)"}
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 13346
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 16, 2020 11:57:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Open the Gauge homepage' using 'class example.StepImplementation.implementation1"}
+{"logLevel":"debug","message":"Executing 'Go to Gauge Get Started Page' using 'class example.StepImplementation.gotoGetStartedPage"}
+{"logLevel":"debug","message":"Executing 'Ensure installation instructions are available' using 'class example.StepImplementation.ensureInstallationInstructionsAreAvailable"}
+{"logLevel":"debug","message":"Executing 'open the whatsapp web' using 'class makeTroub.TroubImplementation.navigateToWhatsApp"}
+-----[INFO]---BeginTroubleImplementations-----------
+{"logLevel":"debug","message":"Executing 'go for {} account' using 'class makeTroub.TroubImplementation.goForSpecificName"}
+Gtk-Message: 23:57:32.776: Failed to load module "canberra-gtk-module"
